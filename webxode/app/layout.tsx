@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import { ThemeProvider } from "./provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>{children}</body>
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
