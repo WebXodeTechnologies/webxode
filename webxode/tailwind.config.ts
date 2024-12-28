@@ -14,7 +14,10 @@ export default {
   		},
   		borderRadius: {
   			
-  		}
+  		},
+      fontFamily:{
+        montserrat: ['"Montserrat-Alt1"', "sans-serif"],
+      }
   	}
   },
   plugins: [require("tailwindcss-animate")],
