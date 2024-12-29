@@ -1,5 +1,6 @@
 
 
+import { Hero } from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data/index";
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="space-y-20">
       <div className="w-full">
         <FloatingNav navItems={navItems} />
+        <Hero/>
         
         
       </div>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import Logo from "../../public/webxodelogoc.png";
 import { GrFormClose } from "react-icons/gr";
 import { BiMenuAltLeft } from "react-icons/bi";
+import MagicButton from "./MagicButton";
 
 interface NavItem {
   name: string;
@@ -24,8 +25,7 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
 
   return (
     <div
-      className={`fixed top-0 inset-x-0 z-50 text-white shadow-md border-b border-white backdrop-blur-md ${className}`}
-    >
+      className={`fixed top-0 inset-x-0 z-50 text-white shadow-md backdrop-blur-md ${className}`}>
       <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Left: Logo */}
         <div className="flex items-center space-x-2">
@@ -61,9 +61,10 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
         {/* Right: CTA Button (Desktop) */}
         <div className="hidden md:block">
           <Link href="/get-started">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition duration-300">
+            <button className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition duration-300">
               Get Started
             </button>
+            
           </Link>
         </div>
 
@@ -112,7 +113,7 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
             ))}
             <li>
               <Link href="/get-started">
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition duration-300">
+                <button className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition duration-300">
                   Get Started
                 </button>
               </Link>
