@@ -1,9 +1,7 @@
 
-
-import AboutUs from "@/components/AboutUs";
 import { Hero } from "@/components/Hero";
-
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import AboutUs from "@/components/AboutUs";
 import { navItems } from "@/data/index";
 export default function Home() {
   return (
@@ -12,9 +10,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero/>
         <AboutUs/>
-        
-        
-        
+
       </div>
     </main>
   );
