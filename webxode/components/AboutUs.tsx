@@ -157,16 +157,16 @@ const AboutUs = () => {
               ref={ctaText}
               className="w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] text-center text-white"
             >
-              <p className="font-medium text-[2vw] sm:text-[3vw] md:text-[2.5vw] lg:text-[2vw] xl:text-[1.8vw] 2xl:text-[1.6vw] leading-[1.4] mb-[1.5vw] text-center tracking-wider font-inter">
-                At{" "}
-                <span className="text-purple font-montserrat"> WEBXODE </span>{" "}
+              <p className="font-medium text-[3.5vw] sm:text-[5vw] md:text-[4vw] lg:text-[2vw] xl:text-[1.8vw] 2xl:text-[1.6vw] leading-[1.4] mb-[1.5vw] text-center tracking-wider font-inter">
+                At
+                <span className="text-purple font-montserrat"> WEBXODE </span>
                 we craft seamless, impactful solutions that empower businesses
                 to achieve new heights. Let us transform your vision into
                 reality. 🚀
               </p>
               <Link
                 href="/get-started"
-                className="en-cta text-[2vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.8vw] xl:text-[1.6vw] 2xl:text-[1.4vw] font-heading"
+                className="en-cta text-[3.5vw] sm:text-[5vw] md:text-[6vw] lg:text-[1.8vw] xl:text-[1.6vw] 2xl:text-[1.4vw] font-heading"
               >
                 <span className="relative cta-span">Let's Connect</span>
                 <span className="cta-emoji ml-2 inline-block">🤝</span>

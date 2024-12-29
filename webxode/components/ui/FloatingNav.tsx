@@ -5,7 +5,7 @@ import Link from "next/link";
 import Logo from "../../public/webxodelogoc.png";
 import { GrFormClose } from "react-icons/gr";
 import { BiMenuAltLeft } from "react-icons/bi";
-import MagicButton from "./MagicButton";
+
 
 interface NavItem {
   name: string;
@@ -25,31 +25,32 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
 
   return (
     <div
-      className={`fixed top-0 inset-x-0 z-50 text-white shadow-md backdrop-blur-md ${className}`}>
-      <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
+      className={`fixed top-0 inset-x-0 z-50 text-white shadow-md backdrop-blur-md ${className}`}
+    >
+      <div className="container mx-auto flex items-center justify-between px-4">
         {/* Left: Logo */}
         <div className="flex items-center space-x-2">
           <Link href="/">
             <Image
               src={Logo}
               alt="Webxode Logo"
-              width={100}
-              height={100}
-              className="w-24 sm:w-28 md:w-32 lg:w-36"
+              width={40} // Reduced logo size
+              height={40} // Reduced logo size
+              className="w-16 sm:w-20 md:w-24" // Reduced logo size
             />
           </Link>
-          <span className="text-2xl font-medium uppercase tracking-widest font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">
+          <h3 className="text-2xl sm:text-xl font-medium uppercase tracking-widest font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">
             Webxode
-          </span>
+          </h3>
         </div>
 
         {/* Center: Navigation Items (Desktop) */}
-        <ul className="hidden md:flex space-x-12">
+        <ul className="hidden md:flex space-x-6">
           {navItems.map((item, index) => (
             <li key={index}>
               <Link
                 href={item.link}
-                className="flex items-center space-x-2 text-sm font-medium hover:text-gray-300 transition duration-300"
+                className="flex items-center space-x-1 text-xs sm:text-sm font-medium hover:text-gray-300 transition duration-300"
               >
                 {item.icon}
                 <span>{item.name}</span>
@@ -61,10 +62,9 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
         {/* Right: CTA Button (Desktop) */}
         <div className="hidden md:block">
           <Link href="/get-started">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition duration-300">
+            <button className="bg-blue-600 text-white px-4 py-1 rounded-lg shadow-md hover:bg-blue-700 transition duration-300 text-sm">
               Get Started
             </button>
-            
           </Link>
         </div>
 
@@ -75,9 +75,9 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
             className="text-white focus:outline-none"
           >
             {isMobileMenuOpen ? (
-              <GrFormClose className="w-8 h-8" />
+              <GrFormClose className="w-6 h-6" />
             ) : (
-              <BiMenuAltLeft className="w-8 h-8" />
+              <BiMenuAltLeft className="w-6 h-6" />
             )}
           </button>
         </div>
@@ -93,18 +93,18 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
         {isMobileMenuOpen && (
           <button
             onClick={toggleMobileMenu}
-            className="absolute top-4 right-4 text-white w-10 h-10 bg-opacity-50 hover:bg-opacity-75 rounded-full"
+            className="absolute top-4 right-4 text-white w-8 h-8 bg-opacity-50 hover:bg-opacity-75 rounded-full"
           >
-            <GrFormClose className="w-8 h-8" />
+            <GrFormClose className="w-6 h-6" />
           </button>
         )}
         <div className="flex justify-center items-center w-full h-screen bg-black">
-          <ul className="space-y-8 text-center text-white">
+          <ul className="space-y-6 text-center text-white">
             {navItems.map((item, index) => (
               <li key={index}>
                 <Link
                   href={item.link}
-                  className="text-2xl font-medium hover:text-gray-300 transition duration-300"
+                  className="text-xl font-medium hover:text-gray-300 transition duration-300"
                   onClick={toggleMobileMenu}
                 >
                   {item.name}
@@ -113,7 +113,7 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
             ))}
             <li>
               <Link href="/get-started">
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition duration-300">
+                <button className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition duration-300 text-lg">
                   Get Started
                 </button>
               </Link>
