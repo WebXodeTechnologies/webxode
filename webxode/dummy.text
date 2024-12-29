@@ -3,3 +3,6 @@ bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-p
   fontFamily:{
         montserrat: ['"Montserrat-Alt1"', "sans-serif"],
       }
+
+
+      
