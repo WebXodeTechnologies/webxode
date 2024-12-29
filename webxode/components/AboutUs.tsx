@@ -107,6 +107,7 @@ const AboutUs = () => {
     });
     return () => ctx.revert();
   }, []);
+
   return (
     <section
       ref={containerRef}
@@ -119,7 +120,7 @@ const AboutUs = () => {
           ref={firstScroll}
           className="h-full flex items-center justify-center absolute w-full"
         >
-          <h2 className="text-[6.5vw] text-white font-heading font-medium text-center tablet:text-[9vw] sm:text-[8vw] md:text-[7vw] lg:text-[6vw] xl:text-[5vw]">
+          <h2 className="text-[6.5vw] sm:text-[8vw] md:text-[7vw] lg:text-[6vw] xl:text-[5vw] 2xl:text-[4.5vw] 3xl:text-[4vw] text-white font-heading font-medium text-center">
             <span>Empowering </span>
             <span>Digital </span>
             <span>Experiences</span>
@@ -131,7 +132,7 @@ const AboutUs = () => {
           ref={secondScroll}
           className="bg-black opacity-0 w-full h-full z-[1] absolute flex items-center justify-center"
         >
-          <h2 className="text-[5vw] h___2 font-medium text-white font-heading text-center tablet:text-[9vw] sm:text-[8vw] md:text-[7vw] lg:text-[6vw] xl:text-[5vw]">
+          <h2 className="text-[5vw] sm:text-[6vw] md:text-[5.5vw] lg:text-[5vw] xl:text-[4.5vw] 2xl:text-[4vw] 3xl:text-[3.8vw] h___2 font-medium text-white font-heading text-center">
             Redefining the Future of Web
           </h2>
           <div ref={macbook} className="absolute w-[60%] z-[-1]">
@@ -156,7 +157,7 @@ const AboutUs = () => {
               ref={ctaText}
               className="w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] text-center text-white"
             >
-              <p className="font-medium text-[2vw] leading-[1.4] mb-[1.5vw] text-center tracking-wider font-inter sm:text-[3vw] md:text-[2.5vw] lg:text-[2vw] xl:text-[1.8vw]">
+              <p className="font-medium text-[2vw] sm:text-[3vw] md:text-[2.5vw] lg:text-[2vw] xl:text-[1.8vw] 2xl:text-[1.6vw] leading-[1.4] mb-[1.5vw] text-center tracking-wider font-inter">
                 At{" "}
                 <span className="text-purple font-montserrat"> WEBXODE </span>{" "}
                 we craft seamless, impactful solutions that empower businesses
@@ -165,7 +166,7 @@ const AboutUs = () => {
               </p>
               <Link
                 href="/get-started"
-                className="en-cta text-[2vw] font-heading sm:text-[2.5vw] md:text-[2vw] lg:text-[1.8vw] xl:text-[1.6vw]"
+                className="en-cta text-[2vw] sm:text-[2.5vw] md:text-[2vw] lg:text-[1.8vw] xl:text-[1.6vw] 2xl:text-[1.4vw] font-heading"
               >
                 <span className="relative cta-span">Let's Connect</span>
                 <span className="cta-emoji ml-2 inline-block">🤝</span>
