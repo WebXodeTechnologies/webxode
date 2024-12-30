@@ -11,6 +11,8 @@ import { FaMobileScreenButton } from "react-icons/fa6";
 import { MdHomeRepairService } from "react-icons/md";
 import { BsFillCartCheckFill } from "react-icons/bs";
 import { FaAppStoreIos } from "react-icons/fa";
+import { useRouter } from "next/navigation";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Services = () => {
   const features = [
@@ -19,48 +21,56 @@ const Services = () => {
       description:
         "Creative and responsive web design that suits your brand's identity.",
       icon: <FaDesktop />,
+      link: "/services/web-design",
     },
     {
-      title: "Custom Web & App Development",
+      title: "Mobile App Developement",
       description:
-        "Tailored web and app solutions with the latest technologies.",
+        "Tailored web and app solutions with the latest technologies for IOS and Android",
       icon: <FaMobileScreenButton />,
+      link: "/services/custom-development",
     },
     {
       title: "Digital Marketing Services",
       description:
-        "Boost your online presence with targeted marketing strategies.",
+        "Boost your online presence with targeted marketing and more options for Growth",
       icon: <MdHomeRepairService />,
+      link: "/services/digital-marketing",
     },
     {
       title: "UI/UX Design Services",
       description:
         "Enhance user engagement with intuitive and aesthetic UI/UX designs.",
       icon: <FaPaintBrush />,
+      link: "/services/ui-ux-design",
     },
     {
       title: "Business Consulting",
       description:
         "Professional consulting services to help your business scale and grow.",
       icon: <FaRegHandshake />,
+      link: "/services/business-consulting",
     },
     {
-      title: "E-commerce Application Development",
+      title: "E-commerce Application",
       description:
         "Custom e-commerce solutions for seamless shopping experiences.",
       icon: <BsFillCartCheckFill />,
+      link: "/services/ecommerce",
     },
     {
       title: "Real-time Applications",
       description:
         "Develop real-time applications with WebSockets and Node.js.",
       icon: <FaAppStoreIos />,
+      link: "/services/real-time-apps",
     },
     {
       title: "Deployment & Hosting",
       description:
         "Deploy and host your web applications on reliable platforms.",
       icon: <FaCloud />,
+      link: "/services/deployment-hosting",
     },
   ];
 
@@ -89,12 +99,16 @@ const Feature = ({
   description,
   icon,
   index,
+  link,
 }: {
   title: string;
   description: string;
   icon: React.ReactNode;
   index: number;
+  link: string;
 }) => {
+  const router = useRouter();
+
   return (
     <div
       className={cn(
@@ -109,8 +123,7 @@ const Feature = ({
       {index >= 4 && (
         <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
       )}
-      <div className="flex justify-center items-center mb-4 relative z-10 text-neutral-600 dark:text-neutral-400">
-        {/* Increased icon size */}
+      <div className="flex justify-center items-start mb-10 relative z-10 text-neutral-600 dark:text-neutral-400">
         <div className="text-5xl">{icon}</div>
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10">
@@ -122,6 +135,13 @@ const Feature = ({
       <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
         {description}
       </p>
+      <button
+        className="mt-5 px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium rounded-full hover:from-purple-600 hover:to-blue-600 hover:scale-105 transform transition-all duration-300 flex items-center justify-center space-x-2"
+        onClick={() => router.push(link)}
+      >
+        <span>Learn More</span>
+        <GoArrowUpRight className="text-xl" />
+      </button>
     </div>
   );
 };
