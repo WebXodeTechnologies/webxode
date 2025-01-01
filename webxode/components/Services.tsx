@@ -76,7 +76,7 @@ const Services = () => {
 
   return (
     <div id="services">
-      <div className="container mx-auto my-5">
+      <div className="container mx-auto my-5 max-w-7xl">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal text-center text-gradient mb-5 tracking-wider font-outfit animate-fade-in">
           Your Vision,
           <span className="block sm:inline text-purple font-montserrat font-normal">
@@ -132,13 +132,13 @@ const Feature = ({
       <div className="flex justify-center items-start mb-10 relative z-10 text-neutral-600 dark:text-neutral-400">
         <div className="text-5xl">{icon}</div>
       </div>
-      <div className="text-lg font-bold mb-2 relative z-10 px-10">
+      <div className="text-lg font-bold mb-2 relative z-10 px-10 ">
         <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-blue-500 transition-all duration-200 origin-center" />
         <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100">
           {title}
         </span>
       </div>
-      <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+      <p className="text-sm text-neutral-600 dark:text-neutral-300  relative z-10 px-10">
         {description}
       </p>
       <button

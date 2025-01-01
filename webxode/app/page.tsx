@@ -5,6 +5,7 @@ import { navItems } from "@/data/index";
 import Services from "@/components/Services";
 import OurApproach from "@/components/OurApproach";
 import AboutUs from "@/components/AboutUs";
+import RecentWorks from "@/components/RecentWorks";
 
 
 
@@ -15,8 +16,10 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero/>
         <AboutUs/>
+        <RecentWorks/>
         <Services/>
         <OurApproach/>
+        
         
         
         
