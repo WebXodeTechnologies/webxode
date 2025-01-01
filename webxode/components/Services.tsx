@@ -85,8 +85,8 @@ const Services = () => {
         </h1>
         <div className="container mx-auto max-w-4xl px-4 py-4 text-center">
           <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            From building powerful applications to driving exponential growth, we
-            provide all the expertise and tools your business needs.
+            From building powerful applications to driving exponential growth,
+            we provide all the expertise and tools your business needs.
           </p>
         </div>
       </div>
