@@ -4,6 +4,10 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import AboutUs from "@/components/AboutUs";
 import { navItems } from "@/data/index";
 import Services from "@/components/Services";
+import OurApproach from "@/components/OurApproach";
+
+
+
 export default function Home() {
   return (
     <main className="space-y-20">
@@ -12,6 +16,10 @@ export default function Home() {
         <Hero/>
         <AboutUs/>
         <Services/>
+        <OurApproach/>
+        
+        
+        
 
       </div>
     </main>
