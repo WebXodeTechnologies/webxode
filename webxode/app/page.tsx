@@ -4,6 +4,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import AboutUs from "@/components/AboutUs";
 import { navItems } from "@/data/index";
 import Services from "@/components/Services";
+import OurApproach from "@/components/OurApproach";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero/>
         <AboutUs/>
         <Services/>
+        <OurApproach/>
         
         
         
