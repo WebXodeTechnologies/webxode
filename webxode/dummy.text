@@ -5,4 +5,28 @@ bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-p
       }
 
 
-      
+        <div className="grid grid-cols-2 items-center bg-red-400">
+
+        {/* Left Side */}
+        <div className="space-y-10 mb-5">
+          <h2 className="text-2xl font-bold">Our Recent Great Work</h2>
+          <div className='flex items-start'>
+            <Image src={Logo2} alt="WearTrenz Logo" width={200} height={200} />
+          </div>
+          <div className='flex text-start text-wrap'>
+          <p className="text-white text-xl font-outfit tracking-wide"> Discover the Latest Fashion Trends at <span className='text-2xl font-montserrat text-purple'>Weartrendz</span> – Your One-Stop Shop for Style, Comfort, and Quality!</p>
+          </div>
+          
+          
+        </div>
+
+        {/* Right Side */}
+        <div className="flex justify-center items-center relative">
+          <div className="absolute left-0 top-0 w-full h-full flex justify-center items-center">
+            <Image src={mockup1} alt="Mockup 1" width={1180} height={700} />
+          </div>
+          <div className="absolute right-0 bottom-0 w-full h-full flex justify-center items-center">
+            <Image src={mockup2} alt="Mockup 2" width={1180} height={700} />
+          </div>
+        </div>
+      </div> 
