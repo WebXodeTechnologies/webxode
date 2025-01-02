@@ -6,6 +6,12 @@ import OurApproach from "@/components/OurApproach";
 import AboutUs from "@/components/AboutUs";
 import RecentWorks from "@/components/RecentWorks";
 import RecentProjects from "@/components/RecentProjects";
+import TechStack from "@/components/TechStack";
+import Testimonial from "@/components/Testimonial";
+import Faq from "@/components/Faq";
+import BookDemo from "@/components/BookDemo";
+import Macbookscroll from "@/components/Macbookscroll";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +24,12 @@ export default function Home() {
         <Services />
         <OurApproach />
         <RecentProjects/>
+        <TechStack/>
+        <Testimonial/>
+        <Faq/>
+        <BookDemo/>
+        <Macbookscroll/>
+        <Footer/>
       </div>
     </main>
   );
