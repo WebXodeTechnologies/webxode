@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import { TechstackLogos } from "@/data/index";
 
+
 const TechStack = () => {
   const sliderRef = useRef(null);
 
