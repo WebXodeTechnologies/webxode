@@ -1,14 +1,13 @@
 "use client";
 
 import React from "react";
-import { ClientWords } from "@/data/index"; 
+import { ClientWords } from "@/data/index";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 
 const Testimonial = () => {
-  
   const testimonials = ClientWords.map((client) => ({
-    quote: client.feedback,  
-    name: client.name,       
+    quote: client.feedback,
+    name: client.name,
     title: `${client.designation} at ${client.company}`,
   }));
 
@@ -24,23 +23,23 @@ const Testimonial = () => {
       {/* Testimonials */}
       <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
-          items={testimonials}  
-          direction="left"      
-          speed="normal"        
+          items={testimonials}
+          direction="left"
+          speed="normal"
         />
       </div>
       <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
-          items={testimonials}  
-          direction="right"      
-          speed="normal"        
+          items={testimonials}
+          direction="right"
+          speed="normal"
         />
       </div>
-       <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
+      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
-          items={testimonials}  
-          direction="left"      
-          speed="normal"        
+          items={testimonials}
+          direction="left"
+          speed="normal"
         />
       </div>
     </section>

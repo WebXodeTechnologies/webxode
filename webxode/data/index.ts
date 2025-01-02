@@ -13,7 +13,7 @@ export const projects = [
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://apparel-e-commerce.vercel.app/",
-    caseStudy:"",
+    caseStudy: "",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const projects = [
     img: "/mirror.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://mirror-final.vercel.app/",
-    caseStudy:"",
+    caseStudy: "",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const projects = [
     img: "/Qkart.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://akash-qkart-frontend-main.vercel.app/",
-    caseStudy:"",
+    caseStudy: "",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ export const projects = [
     img: "/sb1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://spice-bistro-ak-react-project.netlify.app/",
-    caseStudy:"",
+    caseStudy: "",
   },
 ];
 
@@ -52,7 +52,7 @@ export const TechstackLogos = [
   { src: "/techstack/javascript-js-seeklogo.svg", alt: "JavaScript" },
   { src: "/techstack/react-seeklogo.svg", alt: "React JS" },
   { src: "/techstack/redux-seeklogo.svg", alt: "Redux Toolkit" },
-  { src: "/techstack/next-js-seeklogo.svg", alt: "Next.js" }, 
+  { src: "/techstack/next-js-seeklogo.svg", alt: "Next.js" },
   { src: "/techstack/vite-seeklogo.svg", alt: "Vite" },
   { src: "/techstack/tailwind-css-wordmark-seeklogo.svg", alt: "Tailwind CSS" },
   { src: "/techstack/node-js-seeklogo.svg", alt: "Node.js" },
@@ -74,7 +74,7 @@ export const ClientWords = [
     designation: "CEO",
     feedback:
       "The team at WebXode Technologies delivered exceptional work, bringing our vision to life with precision and creativity.",
-    image: "/images/men-avatar1.jpg", // Replace with your actual men avatar image
+    image: "/images/men-avatar1.jpg",
   },
   {
     id: 2,
@@ -83,7 +83,7 @@ export const ClientWords = [
     designation: "Lead Designer",
     feedback:
       "Working with this team was an absolute pleasure. Their professionalism, creativity, and attention to detail were remarkable.",
-    image: "/images/women-avatar1.jpg", // Replace with your actual women avatar image
+    image: "/images/women-avatar1.jpg",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const ClientWords = [
     designation: "Project Manager",
     feedback:
       "Their team not only met but exceeded our expectations. The communication was smooth, and the final product was outstanding.",
-    image: "/images/men-avatar2.jpg", // Replace with your actual men avatar image
+    image: "/images/men-avatar2.jpg",
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const ClientWords = [
     designation: "Marketing Head",
     feedback:
       "I am highly impressed with the quality of work delivered. Their team’s efficiency and technical knowledge are commendable.",
-    image: "/images/women-avatar2.jpg", // Replace with your actual women avatar image
+    image: "/images/women-avatar2.jpg",
   },
   {
     id: 5,
@@ -110,7 +110,7 @@ export const ClientWords = [
     designation: "Founder",
     feedback:
       "This team has an incredible ability to understand our requirements and deliver creative solutions with quick turnaround times.",
-    image: "/images/men-avatar3.jpg", // Replace with your actual men avatar image
+    image: "/images/men-avatar3.jpg",
   },
   {
     id: 6,
@@ -119,7 +119,7 @@ export const ClientWords = [
     designation: "Creative Director",
     feedback:
       "The attention to detail and innovative approach of the team really made a difference in the project’s success. Truly a pleasure to work with!",
-    image: "/images/women-avatar3.jpg", // Replace with your actual women avatar image
+    image: "/images/women-avatar3.jpg",
   },
   {
     id: 7,
@@ -128,7 +128,7 @@ export const ClientWords = [
     designation: "Tech Lead",
     feedback:
       "The project exceeded our expectations. Their team understood our needs perfectly and created a solution tailored to our business.",
-    image: "/images/men-avatar4.jpg", // Replace with your actual men avatar image
+    image: "/images/men-avatar4.jpg",
   },
   {
     id: 8,
@@ -137,7 +137,7 @@ export const ClientWords = [
     designation: "Business Development Manager",
     feedback:
       "It was a fantastic experience collaborating with this team. They are proactive, reliable, and always deliver on time.",
-    image: "/images/women-avatar4.jpg", // Replace with your actual women avatar image
+    image: "/images/women-avatar4.jpg",
   },
   {
     id: 9,
@@ -146,7 +146,7 @@ export const ClientWords = [
     designation: "Product Manager",
     feedback:
       "We are extremely satisfied with the results. The team is highly professional and provided us with excellent insights and solutions.",
-    image: "/images/men-avatar5.jpg", // Replace with your actual men avatar image
+    image: "/images/men-avatar5.jpg",
   },
   {
     id: 10,
@@ -155,7 +155,7 @@ export const ClientWords = [
     designation: "Chief Operating Officer",
     feedback:
       "This team delivered outstanding results. The communication was seamless, and they understood our needs right from the start.",
-    image: "/images/women-avatar5.jpg", // Replace with your actual women avatar image
+    image: "/images/women-avatar5.jpg",
   },
 ];
 
