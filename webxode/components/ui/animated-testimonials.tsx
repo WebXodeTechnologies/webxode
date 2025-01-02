@@ -117,45 +117,43 @@ export const AnimatedTestimonials = ({
         {/* Image Carousel */}
         <div className="relative w-full h-[250px] md:h-75">
           <AnimatePresence>
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial={{
-                  opacity: 0,
-                  scale: 0.9,
-                  z: -100,
-                  rotate: randomRotateY(),
-                }}
-                animate={{
-                  opacity: isActive(index) ? 1 : 0.7,
-                  scale: isActive(index) ? 1 : 0.95,
-                  z: isActive(index) ? 0 : -100,
-                  rotate: isActive(index) ? 0 : randomRotateY(),
-                  zIndex: isActive(index)
-                    ? 999
-                    : testimonials.length + 2 - index,
-                }}
-                exit={{
-                  opacity: 0,
-                  scale: 0.9,
-                  z: 100,
-                  rotate: randomRotateY(),
-                }}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
-                className={`absolute inset-0 ${
-                  isActive(index) ? "sm:translate-x-4 md:translate-x-8" : ""
-                }`}
-              >
-                <Image
-                  src={testimonial.src}
-                  alt={testimonial.name}
-                  objectFit="cover"
-                  width={1150}
-                  height={800}
-                  className="w-full h-full rounded-3xl object-cover"
-                />
-              </motion.div>
-            ))}
+            {testimonials.map((testimonial, index) =>
+              isActive(index) ? (
+                <motion.div
+                  key={index}
+                  initial={{
+                    opacity: 0,
+                    scale: 0.9,
+                    z: -100,
+                    rotate: randomRotateY(),
+                  }}
+                  animate={{
+                    opacity: 1,
+                    scale: 1,
+                    z: 0,
+                    rotate: 0,
+                    zIndex: 999,
+                  }}
+                  exit={{
+                    opacity: 0,
+                    scale: 0.9,
+                    z: 100,
+                    rotate: randomRotateY(),
+                  }}
+                  transition={{ duration: 0.5, ease: "easeInOut" }}
+                  className="absolute inset-0 sm:translate-x-4 md:translate-x-8"
+                >
+                  <Image
+                    src={testimonial.src}
+                    alt={testimonial.name}
+                    objectFit="cover"
+                    width={1150}
+                    height={800}
+                    className="w-full h-full rounded-3xl object-cover"
+                  />
+                </motion.div>
+              ) : null
+            )}
           </AnimatePresence>
         </div>
       </div>
