@@ -159,3 +159,56 @@ export const ClientWords = [
   },
 ];
 
+export const FAQ = [
+  {
+    question: "What services does Webxode Solutions provide?",
+    answer:
+      "Webxode Solutions offers a comprehensive range of services including web design, custom web and mobile app development, digital marketing, business consulting, and UI/UX design. We help businesses create impactful digital solutions tailored to their specific needs.",
+  },
+  {
+    question: "Why should I choose Webxode Solutions for web development?",
+    answer:
+      "At Webxode Solutions, we specialize in custom web development that focuses on functionality, scalability, and user experience. Our team of expert developers ensures that your website or application is built to your specifications and delivers results.",
+  },
+  {
+    question: "How can Webxode Solutions help with digital marketing?",
+    answer:
+      "Our digital marketing services help businesses grow their online presence. We provide targeted SEO, SEM, content marketing, and social media strategies designed to drive traffic and increase conversions, ensuring your brand reaches the right audience.",
+  },
+  {
+    question: "What makes Webxode Solutions different from other web design companies?",
+    answer:
+      "Webxode Solutions takes a client-first approach, offering custom web design services tailored to your brand and audience. Our team focuses on creating visually appealing, mobile-friendly, and high-performing websites that align with your business goals.",
+  },
+  {
+    question: "What types of businesses can benefit from Webxode Solutions' services?",
+    answer:
+      "Whether you're a startup or an established business, Webxode Solutions caters to a wide range of industries. From e-commerce to corporate solutions, our business consulting and UI/UX design services are perfect for businesses seeking growth through digital transformation.",
+  },
+  {
+    question: "Can Webxode Solutions help me with mobile app development?",
+    answer:
+      "Yes, we offer custom mobile app development services for both iOS and Android platforms. Our team focuses on building intuitive, responsive, and feature-rich mobile applications to help your business stay competitive in today’s digital world.",
+  },
+  {
+    question: "How does Webxode Solutions ensure high-quality UI/UX design?",
+    answer:
+      "Our team of designers follows a user-centered approach to UI/UX design, ensuring seamless, intuitive, and engaging experiences. We conduct extensive research to understand user behavior, followed by continuous testing and iteration to deliver designs that enhance user satisfaction.",
+  },
+  {
+    question: "What is business consulting at Webxode Solutions?",
+    answer:
+      "Our business consulting services help businesses optimize their processes and strategies. We analyze your business goals, identify challenges, and provide tailored solutions that drive growth, improve efficiency, and increase profitability.",
+  },
+  {
+    question: "How can Webxode Solutions help improve my website’s SEO?",
+    answer:
+      "We offer SEO optimization as part of our digital marketing services to enhance your website’s visibility on search engines. Through on-page SEO, keyword research, and high-quality content creation, we help your website rank higher and attract more organic traffic.",
+  },
+  {
+    question: "How long does it take to develop a custom website or app with Webxode Solutions?",
+    answer:
+      "The timeline for your custom website or app development depends on the complexity of the project. Generally, we provide a detailed timeline during the initial consultation and ensure that we deliver within the agreed-upon timeframe, keeping you updated throughout the process.",
+  },
+];
+
