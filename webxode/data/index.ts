@@ -65,3 +65,97 @@ export const TechstackLogos = [
   { src: "/techstack/cloudinary-seeklogo.svg", alt: "Cloudinary" },
   { src: "/techstack/figma-seeklogo.svg", alt: "Figma" },
 ];
+
+export const ClientWords = [
+  {
+    id: 1,
+    name: "Amit Sharma",
+    company: "Tech Innovators Pvt. Ltd.",
+    designation: "CEO",
+    feedback:
+      "The team at WebXode Technologies delivered exceptional work, bringing our vision to life with precision and creativity.",
+    image: "/images/men-avatar1.jpg", // Replace with your actual men avatar image
+  },
+  {
+    id: 2,
+    name: "Priya Gupta",
+    company: "Creative Solutions",
+    designation: "Lead Designer",
+    feedback:
+      "Working with this team was an absolute pleasure. Their professionalism, creativity, and attention to detail were remarkable.",
+    image: "/images/women-avatar1.jpg", // Replace with your actual women avatar image
+  },
+  {
+    id: 3,
+    name: "Rajesh Patel",
+    company: "Patel Enterprises",
+    designation: "Project Manager",
+    feedback:
+      "Their team not only met but exceeded our expectations. The communication was smooth, and the final product was outstanding.",
+    image: "/images/men-avatar2.jpg", // Replace with your actual men avatar image
+  },
+  {
+    id: 4,
+    name: "Neha Desai",
+    company: "Desai Corp.",
+    designation: "Marketing Head",
+    feedback:
+      "I am highly impressed with the quality of work delivered. Their team’s efficiency and technical knowledge are commendable.",
+    image: "/images/women-avatar2.jpg", // Replace with your actual women avatar image
+  },
+  {
+    id: 5,
+    name: "Vikas Kumar",
+    company: "Vikas Solutions",
+    designation: "Founder",
+    feedback:
+      "This team has an incredible ability to understand our requirements and deliver creative solutions with quick turnaround times.",
+    image: "/images/men-avatar3.jpg", // Replace with your actual men avatar image
+  },
+  {
+    id: 6,
+    name: "Ritika Malhotra",
+    company: "Ritika Designs",
+    designation: "Creative Director",
+    feedback:
+      "The attention to detail and innovative approach of the team really made a difference in the project’s success. Truly a pleasure to work with!",
+    image: "/images/women-avatar3.jpg", // Replace with your actual women avatar image
+  },
+  {
+    id: 7,
+    name: "Karan Mehta",
+    company: "Mehta Technologies",
+    designation: "Tech Lead",
+    feedback:
+      "The project exceeded our expectations. Their team understood our needs perfectly and created a solution tailored to our business.",
+    image: "/images/men-avatar4.jpg", // Replace with your actual men avatar image
+  },
+  {
+    id: 8,
+    name: "Sanya Singh",
+    company: "Singh Enterprises",
+    designation: "Business Development Manager",
+    feedback:
+      "It was a fantastic experience collaborating with this team. They are proactive, reliable, and always deliver on time.",
+    image: "/images/women-avatar4.jpg", // Replace with your actual women avatar image
+  },
+  {
+    id: 9,
+    name: "Sandeep Yadav",
+    company: "Yadav Innovations",
+    designation: "Product Manager",
+    feedback:
+      "We are extremely satisfied with the results. The team is highly professional and provided us with excellent insights and solutions.",
+    image: "/images/men-avatar5.jpg", // Replace with your actual men avatar image
+  },
+  {
+    id: 10,
+    name: "Anjali Reddy",
+    company: "Reddy & Co.",
+    designation: "Chief Operating Officer",
+    feedback:
+      "This team delivered outstanding results. The communication was seamless, and they understood our needs right from the start.",
+    image: "/images/women-avatar5.jpg", // Replace with your actual women avatar image
+  },
+];
+
