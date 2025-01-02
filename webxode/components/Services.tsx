@@ -77,7 +77,7 @@ const Services = () => {
   return (
     <div id="services">
       <div className="container mx-auto my-5 max-w-7xl">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal text-center text-gradient mb-5 tracking-wider font-outfit animate-fade-in">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-normal text-center text-gradient mb-5 tracking-wider font-outfit animate-fade-in uppercase">
           Your Vision,
           <span className="block sm:inline text-purple font-montserrat font-normal">
             Our Expertise
