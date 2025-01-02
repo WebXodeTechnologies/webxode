@@ -16,8 +16,8 @@ const Faq = () => {
   return (
     <section className='py-20'>
       <div className='flex justify-center items-center mb-10'>
-        <h1 className='text-center text-3xl font-montserrat tracking-wide uppercase text-purple'>
-          Frequently Asked Questions
+        <h1 className='text-center text-3xl font-montserrat tracking-wide uppercase text-white'>
+          Frequently <span className='text-purple tracking-wide'>Asked Questions</span> 
         </h1>
       </div>
 
