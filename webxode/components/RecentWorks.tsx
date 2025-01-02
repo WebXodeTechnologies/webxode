@@ -9,18 +9,19 @@ const RecentWorks = () => {
   const testimonials = [
     {
       quote:
-        "Weartrendz transformed the way I shop! Their latest collection is just amazing.",
-      name: "Weartrenz",
+        "Weartrendz: Where style meets convenience. Elevate your wardrobe effortlessly!",
+      name: "Weartrendz",
       image: Logo2,
       designation: "Apparel E-commerce",
       src: mockup1,
       website: "https://apparel-e-commerce.vercel.app/",
       category: "Fashion & Retail",
       detailedFeedback:
-        "We were struggling to find a partner who could align with our vision. Weartrendz provided not only a unique shopping platform but also insights into customer preferences, enhancing our brand reach significantly.",
+        "Weartrendz revolutionized our approach to fashion retail. The platform’s intuitive design and seamless user experience have not only attracted a broader audience but also improved customer retention rates. With advanced analytics and a focus on personalization, it has become the cornerstone of our brand's digital transformation. Every interaction feels crafted with the user in mind, making shopping an absolute delight.",
     },
     {
-      quote: "Get inked in Mirror - A very creative Artist",
+      quote:
+        "Mirror Tattoo Studio: Ink your story with precision and passion.",
       name: "Mirror Tattoo Studio",
       image: Logo1,
       designation: "Tattoo Design",
@@ -28,9 +29,10 @@ const RecentWorks = () => {
       website: "https://mirror-final.vercel.app/",
       category: "Creative Arts",
       detailedFeedback:
-        "Mirror Tattoo Studio received an extraordinary boost in engagement after collaborating. The design aesthetics and usability exceeded our expectations. It has been a transformative experience.",
+        "The Mirror Tattoo Studio website is a masterpiece that truly reflects our art. The sleek visuals and dynamic design elements perfectly encapsulate the creativity and precision we strive to deliver. Clients are raving about the easy appointment scheduling and rich portfolio showcase, which have significantly boosted our bookings. This digital upgrade has turned our brand into a beacon for tattoo enthusiasts, setting a new benchmark in the industry.",
     },
   ];
+  
 
   return (
     <section className="my-10 container max-w-7xl">
