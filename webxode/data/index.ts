@@ -13,6 +13,7 @@ export const projects = [
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://apparel-e-commerce.vercel.app/",
+    caseStudy:"",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const projects = [
     img: "/mirror.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://mirror-final.vercel.app/",
+    caseStudy:"",
   },
   {
     id: 3,
@@ -29,13 +31,15 @@ export const projects = [
     img: "/Qkart.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "https://akash-qkart-frontend-main.vercel.app/",
+    caseStudy:"",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Spice-Bistro",
+    des: "Spice Bistro has redefined how our customers experience Italian cuisine from the comfort of their homes",
+    img: "/sb1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    link: "https://spice-bistro-ak-react-project.netlify.app/",
+    caseStudy:"",
   },
 ];
