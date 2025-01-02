@@ -43,3 +43,25 @@ export const projects = [
     caseStudy:"",
   },
 ];
+
+
+
+export const TechstackLogos = [
+  { src: "/techstack/html5-with-wordmark-color-seeklogo.svg", alt: "HTML5" },
+  { src: "/techstack/css-3-seeklogo.svg", alt: "CSS3" },
+  { src: "/techstack/javascript-js-seeklogo.svg", alt: "JavaScript" },
+  { src: "/techstack/react-seeklogo.svg", alt: "React JS" },
+  { src: "/techstack/redux-seeklogo.svg", alt: "Redux Toolkit" },
+  { src: "/techstack/next-js-seeklogo.svg", alt: "Next.js" }, 
+  { src: "/techstack/vite-seeklogo.svg", alt: "Vite" },
+  { src: "/techstack/tailwind-css-wordmark-seeklogo.svg", alt: "Tailwind CSS" },
+  { src: "/techstack/node-js-seeklogo.svg", alt: "Node.js" },
+  { src: "/techstack/mongodb-seeklogo-3.svg", alt: "MongoDB" },
+  { src: "/techstack/firebase-seeklogo.svg", alt: "Firebase" },
+  { src: "/techstack/three-js-seeklogo.svg", alt: "Three.js" },
+  { src: "/techstack/greensock-gsap-icon-seeklogo.svg", alt: "GreenSock (GSAP)" },
+  { src: "/techstack/adobe-photoshop-cc-seeklogo.svg", alt: "Adobe Photoshop" },
+  { src: "/techstack/adobe-illustrator-cc-seeklogo.svg", alt: "Adobe Illustrator" },
+  { src: "/techstack/cloudinary-seeklogo.svg", alt: "Cloudinary" },
+  { src: "/techstack/figma-seeklogo.svg", alt: "Figma" },
+];
