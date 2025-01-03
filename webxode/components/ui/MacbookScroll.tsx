@@ -24,7 +24,7 @@ import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image from "next/image";
-import Logo from "@/public/WebxodeLogo.png";
+import Logo from "@/public/WebxodeLogo.png"
 
 export const MacbookScroll = ({
   src,
@@ -69,21 +69,8 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="flex flex-col items-center py-0 md:py-20 justify-start flex-shrink-0  transform md:scale-100  scale-[0.35] sm:scale-50"
+      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
     >
-      <motion.h2
-        style={{
-          translateY: textTransform,
-          opacity: textOpacity,
-        }}
-        className="dark:text-white text-neutral-800 text-3xl font-bold mb-20 text-center"
-      >
-        {title || (
-          <span>
-            
-          </span>
-        )}
-      </motion.h2>
       {/* Lid */}
       <Lid
         src={src}
@@ -150,13 +137,7 @@ export const Lid = ({
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
         >
           <span className="text-white">
-            <Image
-              src={Logo}
-              alt="Company Logo"
-              width={300}
-              height={300}
-              className="object-cover"
-            />
+            <Image src={Logo} alt="company Logo" width={300} height={300} className="-translate-x-2"></Image>
           </span>
         </div>
       </div>
@@ -633,23 +614,23 @@ export const OptionKey = ({ className }: { className: string }) => {
   );
 };
 
-// const AceternityLogo = () => {
-//   return (
-//     <svg
-//       width="66"
-//       height="65"
-//       viewBox="0 0 66 65"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//       className="h-3 w-3 text-white"
-//     >
-//       <path
-//         d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-//         stroke="currentColor"
-//         strokeWidth="15"
-//         strokeMiterlimit="3.86874"
-//         strokeLinecap="round"
-//       />
-//     </svg>
-//   );
-// };
+const AceternityLogo = () => {
+  return (
+    <svg
+      width="66"
+      height="65"
+      viewBox="0 0 66 65"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-3 w-3 text-white"
+    >
+      <path
+        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
+        stroke="currentColor"
+        strokeWidth="15"
+        strokeMiterlimit="3.86874"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
