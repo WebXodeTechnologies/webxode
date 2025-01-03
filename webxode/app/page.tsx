@@ -12,7 +12,6 @@ import Faq from "@/components/Faq";
 import BookDemo from "@/components/BookDemo";
 import Macbookscroll from "@/components/Macbookscroll";
 import Footer from "@/components/Footer";
-import { GlobalConnection } from "@/components/GlobalConnection";
 
 export default function Home() {
   return (
@@ -29,7 +28,6 @@ export default function Home() {
         <Testimonial/>
         <Faq/>
         <BookDemo/>
-        <GlobalConnection/>
         <Macbookscroll/>
         <Footer/>
       </div>
