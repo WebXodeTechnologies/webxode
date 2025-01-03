@@ -30,3 +30,11 @@ bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-p
           </div>
         </div>
       </div> 
+
+       <Image
+            src={Logo}
+            alt="Company Logo"
+            width={300}
+            height={300}
+            className="object-cover"
+          />
