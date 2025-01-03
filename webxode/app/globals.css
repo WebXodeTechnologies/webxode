@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("/montserrat-alt1/webfonts/Montserrat-Alt1-Thin.woff2");
-@import url("/montserrat-alt1/webfonts/Montserrat-Alt1-Bold.woff2");
-@import url("/montserrat-alt1/webfonts/Montserrat-Alt1-Regular.woff2");
-@import url("/montserrat-alt1/webfonts/Montserrat-Alt1-Medium.woff2");
-@import url("/montserrat-alt1/webfonts/Montserrat-Alt1-SemiBold.woff2");
+@import url("/Montserrat-Alt1.css");
 
 
 @tailwind base;
