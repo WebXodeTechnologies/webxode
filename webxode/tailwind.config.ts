@@ -75,7 +75,7 @@ const config = {
         },
       },
       fontFamily: {
-        montserrat: ['"Montserrat-Alt1"', "sans-serif"],
+        montserrat: ["var(--font-montserrat)"],
       },
       borderRadius: {
         lg: "var(--radius)",

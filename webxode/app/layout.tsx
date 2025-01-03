@@ -1,6 +1,17 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "./provider";
+import localfont from "next/font/local"
 import "./globals.css";
+
+
+const MontserratAlt1 = localfont(
+  {
+    src: [{
+      path:"../public/montserrat-alt1/webfonts//MontserratAlt1-Light.woff2",
+      weight:"700"
+    },],
+    variable:"--font-montserrat"
+  })
 
 export const metadata: Metadata = {
   title: "WebXode Technologies",
@@ -14,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${MontserratAlt1.variable}`}>
       <body>
         <ThemeProvider
           attribute="class"
