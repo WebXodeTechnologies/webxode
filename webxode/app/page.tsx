@@ -29,9 +29,7 @@ export default function Home() {
         <Testimonial/>
         <Faq/>
         <BookDemo/>
-        <div className="-mt-10">
         <Macbookscroll/>
-        </div>
         <Footer/>
       </div>
     </main>
