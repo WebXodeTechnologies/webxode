@@ -19,7 +19,7 @@ export default function Home() {
     <main className="relative space-y-20 flex justify-center flex-col overflow-clip mx-auto sm:px-10 px-5">
       <div className="w-full">
         <FloatingNav navItems={navItems} />
-        <Hero />
+        {/* <Hero />
         <AboutUs />
         <RecentWorks />
         <Services />
@@ -30,7 +30,7 @@ export default function Home() {
         <Faq/>
         <BookDemo/>
         <Macbookscroll/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </main>
   );
