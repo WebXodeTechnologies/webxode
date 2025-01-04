@@ -7,7 +7,7 @@ import "./globals.css";
 const MontserratAlt1 = localfont(
   {
     src: [{
-      path:"../public/montserrat-alt1/webfonts//MontserratAlt1-Light.woff2",
+      path:"../public/montserrat-alt1/webfonts/MontserratAlt1-Regular.ttf",
       weight:"700"
     },],
     variable:"--font-montserrat"

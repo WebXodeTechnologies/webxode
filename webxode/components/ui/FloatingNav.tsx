@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/webxodelogoc.png";
+import Logo from "../../public/casestudy/companylogonew.svg";
 import { GrFormClose } from "react-icons/gr";
 import { BiMenuAltLeft } from "react-icons/bi";
-
 
 interface NavItem {
   name: string;
@@ -25,23 +24,23 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
 
   return (
     <div
-      className={`fixed top-0 inset-x-0 z-50 text-white shadow-md backdrop-blur-md ${className}`}
+      className={`fixed top-0 inset-x-0 z-50 text-white border-b border-white-100 shadow-md backdrop-blur-md ${className}`}
     >
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Left: Logo */}
-        <div className="flex items-center space-x-2">
-          <Link href="/">
+        <div className="flex items-center space-x-2 px-2 py-2">
+          <Link href="/" className="flex items-center space-x-2">
             <Image
               src={Logo}
               alt="Webxode Logo"
-              width={40} // Reduced logo size
-              height={40} // Reduced logo size
-              className="w-16 sm:w-20 md:w-24" // Reduced logo size
+              width={50}
+              height={40}
+              className="w-16 sm:w-20 md:w-24"
             />
+            <h1 className="text-3xl font-semibold uppercase tracking-widest font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">
+              Webxode
+            </h1>
           </Link>
-          <h3 className="text-2xl sm:text-xl font-medium uppercase tracking-widest font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">
-            Webxode
-          </h3>
         </div>
 
         {/* Center: Navigation Items (Desktop) */}
