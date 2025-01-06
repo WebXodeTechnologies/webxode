@@ -21,56 +21,56 @@ const Services = () => {
       description:
         "Creative and responsive web design that suits your brand's identity.",
       icon: <FaDesktop />,
-      link: "/services/web-design",
+      link: "/web-design",
     },
     {
       title: "Mobile App Developement",
       description:
         "Tailored web and app solutions with the latest technologies for IOS and Android",
       icon: <FaMobileScreenButton />,
-      link: "/services/custom-development",
+      link: "/mobile-app development",
     },
     {
       title: "Digital Marketing Services",
       description:
         "Boost your online presence with targeted marketing and more options for Growth",
       icon: <MdHomeRepairService />,
-      link: "/services/digital-marketing",
+      link: "/digital-marketing",
     },
     {
       title: "UI/UX Design Services",
       description:
         "Enhance user engagement with intuitive and aesthetic UI/UX designs.",
       icon: <FaPaintBrush />,
-      link: "/services/ui-ux-design",
+      link: "/ui-ux-design",
     },
     {
       title: "Business Consulting",
       description:
         "Professional consulting services to help your business scale and grow.",
       icon: <FaRegHandshake />,
-      link: "/services/business-consulting",
+      link: "/business-consulting",
     },
     {
       title: "E-commerce Application",
       description:
         "Custom e-commerce solutions for seamless shopping experiences.",
       icon: <BsFillCartCheckFill />,
-      link: "/services/ecommerce",
+      link: "/ecommerce",
     },
     {
       title: "Real-time Applications",
       description:
         "Develop real-time applications with WebSockets and Node.js.",
       icon: <FaAppStoreIos />,
-      link: "/services/real-time-apps",
+      link: "/real-time-apps",
     },
     {
       title: "Deployment & Hosting",
       description:
         "Deploy and host your web applications on reliable platforms.",
       icon: <FaCloud />,
-      link: "/services/deployment-hosting",
+      link: "/deployment-hosting",
     },
   ];
 

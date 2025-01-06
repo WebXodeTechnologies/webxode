@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const BookDemo = () => {
   return (
-    <section className="py-20">
+    <section className="">
       <div className="w-full mx-auto rounded-md h-screen overflow-hidden">
         <Vortex
           backgroundColor="#000000"

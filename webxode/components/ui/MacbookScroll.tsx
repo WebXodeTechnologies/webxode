@@ -25,6 +25,10 @@ import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image from "next/image";
 import Logo from "@/public/WebxodeLogo.png"
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const MacbookScroll = ({
   src,
@@ -44,23 +48,49 @@ export const MacbookScroll = ({
   });
 
   const [isMobile, setIsMobile] = useState(false);
+  const [screenSize, setScreenSize] = useState('xl'); 
+
 
   useEffect(() => {
-    if (window && window.innerWidth < 768) {
-      setIsMobile(true);
-    }
+    const updateScreenSize = () => {
+      const width = window.innerWidth;
+  
+      if (width < 640) {
+        setScreenSize('sm');
+      } else if (width >= 640 && width < 768) {
+        setScreenSize('md');
+      } else if (width >= 768 && width < 1024) {
+        setScreenSize('lg');
+      } else if (width >= 1024 && width < 1280) {
+        setScreenSize('xl');
+      } else if (width >= 1280 && width < 1536) {
+        setScreenSize('2xl');
+      } else if (width >= 1536 && width < 1920) {
+        setScreenSize('3xl');
+      } else if (width >= 1920 && width < 2560) {
+        setScreenSize('4xl');
+      } else {
+        setScreenSize('6xl');
+      }
+    };
+  
+    // Initial check
+    updateScreenSize();
+  
+    // Listen for resize events
+    window.addEventListener('resize', updateScreenSize);
+  
+    // Cleanup the event listener on unmount
+    return () => {
+      window.removeEventListener('resize', updateScreenSize);
+    };
   }, []);
+  
+  // Now you can use the screenSize state for any conditional rendering or logic
+  console.log(screenSize); 
 
-  const scaleX = useTransform(
-    scrollYProgress,
-    [0, 0.3],
-    [1.2, isMobile ? 1 : 1.5]
-  );
-  const scaleY = useTransform(
-    scrollYProgress,
-    [0, 0.3],
-    [0.6, isMobile ? 1 : 1.5]
-  );
+  const scaleX = useTransform(scrollYProgress, [0, 0.3], [1.2, isMobile ? 1 : 1.5]);
+  const scaleY = useTransform(scrollYProgress, [0, 0.3], [0.6, isMobile ? 1 : 1.5]);
   const translate = useTransform(scrollYProgress, [0, 1], [0, 1500]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
   const textTransform = useTransform(scrollYProgress, [0, 0.3], [0, 100]);
@@ -69,8 +99,7 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
-    >
+      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-40 xl:py-80 2xl:py-80 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50">
       {/* Lid */}
       <Lid
         src={src}
@@ -107,6 +136,7 @@ export const MacbookScroll = ({
   );
 };
 
+
 export const Lid = ({
   scaleX,
   scaleY,
@@ -120,15 +150,30 @@ export const Lid = ({
   translate: MotionValue<number>;
   src?: string;
 }) => {
+  useEffect(() => {
+    // GSAP ScrollTrigger animation
+    gsap.to('.lid', {
+      scrollTrigger: {
+        trigger: '.lid', // Trigger the animation based on this element
+        start: 'top bottom', // When the top of the lid reaches the bottom of the viewport
+        end: 'bottom top',   // When the bottom of the lid reaches the top of the viewport
+        scrub: 1,            // Smooth scroll animation
+        markers: false,      // Optional for debugging: Set to true to see the markers
+      },
+      transform: 'perspective(800px) rotateX(-5deg) translateZ(0px)', // Lid opens gently to -5deg
+      ease: 'power2.out',  // Smooth easing for the animation
+    });
+  }, []);
+
   return (
-    <div className="relative [perspective:800px]">
+    <div className="relative perspective-[800px]">
       <div
+        className="lid h-[12rem] w-[32rem] bg-[#010101] rounded-2xl p-2 relative"
         style={{
-          transform: "perspective(800px) rotateX(-25deg) translateZ(0px)",
+          transform: "perspective(800px) rotateX(-40deg) translateZ(0px)", // Initial slight 10% open state
           transformOrigin: "bottom",
           transformStyle: "preserve-3d",
         }}
-        className="h-[12rem] w-[32rem] bg-[#010101] rounded-2xl p-2 relative"
       >
         <div
           style={{
@@ -137,13 +182,21 @@ export const Lid = ({
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
         >
           <span className="text-white">
-            <Image src={Logo} alt="company Logo" width={300} height={300} className="-translate-x-2"></Image>
+            <Image
+              src={src || Logo} // Default logo if src is not provided
+              alt="company Logo"
+              width={300}
+              height={300}
+              className="-translate-x-2"
+            />
           </span>
         </div>
       </div>
     </div>
   );
 };
+
+
 
 export const Trackpad = () => {
   return (
