@@ -165,13 +165,6 @@ const AboutUs = () => {
                 to achieve new heights. Let us transform your vision into
                 reality. 🚀
               </p>
-              <Link href="/get-started" legacyBehavior>
-               
-                  <MagicButton
-                    title="Let's Connect 🤝"
-                  />
-                
-              </Link>
             </div>
           </div>
         </div>
