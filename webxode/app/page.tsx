@@ -27,8 +27,8 @@ export default function Home() {
         <RecentProjects/>
         <TechStack/>
         <Testimonial/>
-        <Faq/>
-        <BookDemo/>
+        <Faq/> 
+        <BookDemo/>  
         <Macbookscroll/>
         <Footer/> 
       </div>

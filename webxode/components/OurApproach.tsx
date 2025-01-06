@@ -3,7 +3,9 @@ import { FaPaintBrush, FaCode, FaShippingFast } from "react-icons/fa";
 import Image from "next/image";
 import image1 from "../public/Asset-11-1.png";
 import Link from "next/link";
-import { GoArrowUpRight } from "react-icons/go";
+import MagicButton from "./ui/MagicButton"
+import { FaLocationArrow } from "react-icons/fa6";
+
 
 const OurApproach = () => {
   return (
@@ -25,7 +27,7 @@ const OurApproach = () => {
           </h1>
           {/* Design Section */}
           <div className="flex items-center space-x-4 px-4 py-2">
-            <FaPaintBrush className="text-red-500 text-5xl lg:text-3xl" />
+            <FaPaintBrush className="text-red-500 text-5xl md:text-5xl lg:text-4xl" />
             <div className="px-5">
               <h2 className="text-2xl font-semibold font-montserrat">
                 <span className="text-purple text-bold">D</span>esign
@@ -39,7 +41,7 @@ const OurApproach = () => {
 
           {/* Develop Section */}
           <div className="flex items-center space-x-4 px-4 py-2">
-            <FaCode className="text-blue-500 text-5xl lg:text-3xl" />
+            <FaCode className="text-blue-500 text-5xl md:text-5xl lg:text-4xl" />
             <div className="px-5">
               <h2 className="text-2xl font-semibold font-montserrat">
                 <span className="text-purple text-bold">D</span>evelop
@@ -53,7 +55,7 @@ const OurApproach = () => {
 
           {/* Deliver Section */}
           <div className="flex items-center space-x-4 px-4 py-2">
-            <FaShippingFast className="text-green-500 text-5xl lg:text-3xl" />
+            <FaShippingFast className="text-green-500 text-5xl md:text-5xl lg:text-4xl" />
             <div className="px-5">
               <h2 className="text-2xl font-semibold font-montserrat">
                 <span className="text-purple text-bold">D</span>eliver
@@ -65,11 +67,8 @@ const OurApproach = () => {
             </div>
           </div>
           <div className="flex justify-center items-center mt-5">
-            <Link href="/our-process">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition duration-300 text-lg flex items-center space-x-2">
-                <span>Know More</span>
-                <GoArrowUpRight className="text-xl" />
-              </button>
+            <Link href="/how-we-do">
+             <MagicButton title="Know More" icon={<FaLocationArrow/>} position="right" />
             </Link>
           </div>
         </div>

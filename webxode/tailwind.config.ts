@@ -1,9 +1,9 @@
 import type { Config } from "tailwindcss";
+import type { PluginAPI } from "tailwindcss/types/config";
+
 
 const svgToDataUri = require("mini-svg-data-uri");
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
+const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
   darkMode: ["class"],
@@ -24,6 +24,12 @@ const config = {
       },
     },
     extend: {
+      spacing: {
+        '800': '800px', // Custom spacing value for perspective
+      },
+      transformOrigin: {
+        'bottom': 'bottom', // Custom transform origin for bottom
+      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -191,13 +197,28 @@ const config = {
           }),
         },
         {
-          values: flattenColorPalette(theme("backgroundColor")), type: "color" 
+          values: flattenColorPalette(theme("backgroundColor")), type: "color",
         }
       );
-    }    
+    },
+    function ({ addUtilities }: PluginAPI) {
+      addUtilities(
+        {
+          ".perspective-800": {
+            perspective: "800px",
+          },
+          ".transform-origin-bottom": {
+            transformOrigin: "bottom",
+          },
+        },
+        {
+          respectPrefix: true,
+          respectImportant: true,
+        },
+      );
+    },
   ],
 } satisfies Config;
-
 
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));
