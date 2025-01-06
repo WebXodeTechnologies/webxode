@@ -1,9 +1,10 @@
 export const navItems = [
-  { name: "Who are we?", link: "#about" },
-  { name: "What we do?", link: "#services" },
-  { name: "How we do?", link: "#ourapproach" },
-  { name: "Our Recent Works", link: "#testimonials" },
+  { name: "Who are we?", link: "/who-are-we" },
+  { name: "What we do?", link: "/what-we-do" },
+  { name: "How we do?", link: "/how-we-do" },
+  { name: "Connect with Us", link: "/connect-with-us"},
 ];
+
 
 export const projects = [
   {
