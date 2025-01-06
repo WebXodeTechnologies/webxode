@@ -6,6 +6,7 @@ import Logo from "../../public/casestudy/companylogonew.svg";
 import { GrFormClose } from "react-icons/gr";
 import { BiMenuAltLeft } from "react-icons/bi";
 import MagicButton from "./MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 interface NavItem {
   name: string;
@@ -25,7 +26,7 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
 
   return (
     <div
-      className={`fixed top-0 inset-x-0 z-50 text-white border-b border-white-100 shadow-md backdrop-blur-md ${className}`}
+      className={`fixed top-0 inset-x-0 z-50 text-white shadow-md backdrop-blur-md ${className}`}
     >
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Left: Logo */}
@@ -62,7 +63,7 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
         {/* Right: CTA Button (Desktop) */}
         <div className="hidden  lg:block">
           <Link href="/get-started">
-            <MagicButton title="Get Started" />
+            <MagicButton title="Get Started" icon={<FaLocationArrow />} position="right" />
           </Link>
         </div>
 
