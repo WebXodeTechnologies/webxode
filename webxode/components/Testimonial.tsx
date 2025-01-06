@@ -17,7 +17,7 @@ const Testimonial = () => {
     <section className="py-20">
       {/* Section Header */}
       <div className="flex justify-center items-center mb-10">
-        <h1 className="text-3xl text-center font-montserrat uppercase tracking-wide">
+        <h1 className="text-3xl md:text-4xl lg:text-4xl text-center font-montserrat uppercase tracking-wide">
           Word of <span className="text-purple tracking-wide">Mouth</span>
         </h1>
       </div>

@@ -16,7 +16,7 @@ const Faq = () => {
   return (
     <section className='py-20'>
       <div className='flex justify-center items-center mb-10'>
-        <h1 className='text-center text-3xl font-montserrat tracking-wide uppercase text-white'>
+        <h1 className='text-center text-3xl md:text-4xl lg:text-4xl font-montserrat tracking-wide uppercase text-white'>
           Frequently <span className='text-purple tracking-wide'>Asked Questions</span> 
         </h1>
       </div>

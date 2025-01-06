@@ -29,7 +29,7 @@ const TechStack = () => {
       {/* Section Header */}
 
       <div className="flex justify-center items-center">
-        <h1 className="text-center text-3xl font-montserrat uppercase tracking-wider">
+        <h1 className="text-center font-montserrat uppercase tracking-wider text-3xl md:text-4xl lg:text-4xl">
           Our Trusted
           <span className="text-purple tracking-wide"> Tech Stack </span>
         </h1>
