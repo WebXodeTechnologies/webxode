@@ -5,6 +5,7 @@ import Link from "next/link";
 import Logo from "../../public/casestudy/companylogonew.svg";
 import { GrFormClose } from "react-icons/gr";
 import { BiMenuAltLeft } from "react-icons/bi";
+import MagicButton from "./MagicButton";
 
 interface NavItem {
   name: string;
@@ -35,21 +36,21 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
               alt="Webxode Logo"
               width={50}
               height={40}
-              className="w-16 sm:w-20 md:w-24"
+              className="w-12 sm:w-16 lg:w-20"
             />
-            <h1 className="text-3xl font-semibold uppercase tracking-widest font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">
+            <h1 className="text-3xl sm:text-4xl xl:text-4xl mt-1 font-semibold uppercase tracking-widest font-montserrat bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">
               Webxode
             </h1>
           </Link>
         </div>
 
         {/* Center: Navigation Items (Desktop) */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden lg:flex space-x-6 xl:space-x-8">
           {navItems.map((item, index) => (
             <li key={index}>
               <Link
                 href={item.link}
-                className="flex items-center space-x-1 text-xs sm:text-sm font-medium hover:text-gray-300 transition duration-300"
+                className="flex items-center space-x-1 text-xs sm:text-sm lg:text-base font-medium font-montserrat hover:text-gray-300 transition duration-300"
               >
                 {item.icon}
                 <span>{item.name}</span>
@@ -59,16 +60,14 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
         </ul>
 
         {/* Right: CTA Button (Desktop) */}
-        <div className="hidden md:block">
+        <div className="hidden  lg:block">
           <Link href="/get-started">
-            <button className="bg-blue-600 text-white px-4 py-1 rounded-lg shadow-md hover:bg-blue-700 transition duration-300 text-sm">
-              Get Started
-            </button>
+            <MagicButton title="Get Started" />
           </Link>
         </div>
 
-        {/* Mobile Menu Button for sm and md devices */}
-        <div className="md:hidden">
+        {/* Mobile Menu Button for screens <900px */}
+        <div className="lg:hidden">
           <button
             onClick={toggleMobileMenu}
             className="text-white focus:outline-none"
@@ -88,7 +87,6 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Close Button at Top Right for mobile menu */}
         {isMobileMenuOpen && (
           <button
             onClick={toggleMobileMenu}
@@ -112,9 +110,7 @@ export function FloatingNav({ navItems, className = "" }: FloatingNavProps) {
             ))}
             <li>
               <Link href="/get-started">
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition duration-300 text-lg">
-                  Get Started
-                </button>
+                <MagicButton title="Get Started" position="center" />
               </Link>
             </li>
           </ul>
