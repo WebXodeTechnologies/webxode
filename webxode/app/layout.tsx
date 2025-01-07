@@ -3,6 +3,9 @@ import { ThemeProvider } from "./provider";
 import localfont from "next/font/local"
 import "./globals.css";
 import WhatsAppButton from "@/components/Whataspp";
+import { FloatingNav } from "@/components/ui/FloatingNav";
+import { navItems } from "@/data/index";
+import Footer from "@/components/Footer";
 
 
 const MontserratAlt1 = localfont(
@@ -34,8 +37,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <FloatingNav navItems={navItems} />
           {children}
         </ThemeProvider>
+        <Footer/>
         <WhatsAppButton />
       </body>
     </html>
