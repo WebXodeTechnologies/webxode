@@ -2,7 +2,8 @@
 import React from 'react';
 import test from "@/public/about/test5.svg";
 import Image from "next/image";
-
+import eyes from "@/public/about/eye.gif";
+import achieve from "@/public/about/achieve.gif";
 
 const Mission = () => {
   return (
@@ -33,25 +34,47 @@ const Mission = () => {
             </div>
 
             {/* Vision Section */}
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h2 className="text-xl font-bold text-gray-800 mb-2">Vision</h2>
-              <p className="text-gray-600 leading-relaxed">
-                "To become the most trusted partner for businesses worldwide by delivering
-                innovative, scalable, and impactful technology solutions that drive digital
-                transformation and sustainable growth."
-              </p>
+            <div className="flex items-center p-6 bg-white rounded-lg shadow-md gap-4">
+              <div className="flex-shrink-0">
+                <Image
+                  src={eyes}
+                  alt="Eyes illustration"
+                  width={80}
+                  height={80}
+                  className="rounded-full object-fit"
+                />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-xl font-bold text-gray-800 mb-2">Vision</h2>
+                <p className="text-gray-600 leading-relaxed">
+                  "To become the most trusted partner for businesses worldwide by delivering
+                  innovative, scalable, and impactful technology solutions that drive digital
+                  transformation and sustainable growth."
+                </p>
+              </div>
             </div>
 
             {/* Mission Section */}
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h2 className="text-xl font-bold text-gray-800 mb-2">Mission</h2>
-              <p className="text-gray-600 leading-relaxed">
-                "Our mission is to empower businesses by providing cutting-edge web and
-                mobile solutions, engaging UI/UX design, and result-oriented digital
-                marketing services. We strive to deliver tailored, high-quality, and
-                innovative solutions that align with our clients’ goals, fostering
-                long-term partnerships and measurable success."
-              </p>
+            <div className="flex items-center p-6 bg-white rounded-lg shadow-md gap-4">
+              <div className="flex-shrink-0">
+                <Image
+                  src={achieve}
+                  alt="Achieve illustration"
+                  width={80}
+                  height={80}
+                  className="rounded-full"
+                />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-xl font-bold text-gray-800 mb-2">Mission</h2>
+                <p className="text-gray-600 leading-relaxed">
+                  "Our mission is to empower businesses by providing cutting-edge web and
+                  mobile solutions, engaging UI/UX design, and result-oriented digital
+                  marketing services. We strive to deliver tailored, high-quality, and
+                  innovative solutions that align with our clients’ goals, fostering
+                  long-term partnerships and measurable success."
+                </p>
+              </div>
             </div>
           </div>
         </div>
