@@ -48,8 +48,8 @@ const RecentWorks = () => {
     <section className="my-10 container max-w-7xl">
       <div className="flex justify-center items-center">
         <h1 className="text-2xl md:text-5xl lg:text-5xl font-montserrat uppercase tracking-wider">
-          Our Recent{" "}
-          <span className="text-2xl md:text-5xl text-purple">Works</span>{" "}
+          Our Recent
+          <span className="text-2xl md:text-5xl text-purple">Works</span>
         </h1>
       </div>
       <div className="lg:py-5">

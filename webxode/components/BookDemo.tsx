@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Vortex } from "./ui/vortex";
+import MagicButton from "./ui/MagicButton"
 import { FaLocationArrow } from "react-icons/fa6";
 
 const BookDemo = () => {
@@ -22,10 +23,7 @@ const BookDemo = () => {
             and unlock tailored strategies that deliver real results.
           </p>
           <div className="flex justify-center items-center py-5 mb-5">
-            <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-lg transform hover:scale-105 flex items-center">
-              Book Your Demo
-              <FaLocationArrow className="ml-2" />
-            </button>
+           <MagicButton title="Book Demo" icon={<FaLocationArrow/>} position="right"/>
           </div>
         </Vortex>
       </div>

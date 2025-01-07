@@ -75,7 +75,7 @@ const Services = () => {
   ];
 
   return (
-    <div id="services">
+    <div>
       <div className="container mx-auto my-5 max-w-7xl">
         <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl font-normal text-center text-gradient mb-5 tracking-wider font-outfit animate-fade-in uppercase font-montserrat">
           Your Vision,
