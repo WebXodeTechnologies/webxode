@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "./provider";
 import localfont from "next/font/local"
 import "./globals.css";
+import WhatsAppButton from "@/components/Whataspp";
 
 
 const MontserratAlt1 = localfont(
@@ -35,6 +36,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <WhatsAppButton />
       </body>
     </html>
   );

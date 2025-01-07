@@ -14,6 +14,7 @@ import Macbookscroll from "@/components/Macbookscroll";
 import Footer from "@/components/Footer";
 
 
+
 export default function Home() {
   return (
     <main className="relative space-y-20 flex justify-center flex-col overflow-clip mx-auto sm:px-10 px-5">
