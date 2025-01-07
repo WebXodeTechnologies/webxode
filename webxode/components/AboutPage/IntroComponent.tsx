@@ -10,7 +10,7 @@ const IntroComponent = () => {
       <div className="flex justify-center items-center px-4 py-2">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold text-white mb-4 font-montserrat">
-            Empowering Clients to Thrive and Lead in Their Industry
+           <span className='text-purple'>Empowering Clients </span> to Thrive and Lead in Their Industry
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-white">
             At WebXode, we're dedicated to delivering innovative solutions that not only elevate our clients' success but ensure their sustained growth, positioning them as leaders in their industry. We combine creative strategies with a customer-centric approach to drive impactful results.
