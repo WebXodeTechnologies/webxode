@@ -258,3 +258,67 @@ export const FAQ = [
       "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
   },
 ];
+
+
+export const Values = [
+  {
+    id: 1,
+    icon: "/about/customer.gif",
+    title: "Customer",
+    description: "At the core of our customer-centric approach is a dedication to understanding client needs, delivering tailored solutions, and ensuring long-term success through impactful results."
+  },
+  {
+    id: 2,
+    icon: "/about/innovation.gif",
+    title: "Innovation",
+    description: "Our focus on innovation empowers us to craft creative, future-ready solutions that help businesses stay ahead in a competitive digital landscape."
+  },
+  {
+    id: 3,
+    icon: "/about/teamwork.gif",
+    title: "Integrity",
+    description: "We build trust through honest communication and ethical practices, forming strong partnerships rooted in reliability and accountability."
+  },
+  {
+    id: 4,
+    icon: "/about/collab.gif",
+    title: "Collaboration",
+    description: "Collaboration is the foundation of our success. By uniting diverse expertise and fostering teamwork, we create solutions that deliver maximum value."
+  },
+  {
+    id: 5,
+    icon: "/about/growth.gif",
+    title: "Growth",
+    description: "We empower continuous learning and development, helping our team and clients adapt to the evolving digital landscape and achieve sustainable growth."
+  },
+  {
+    id: 6,
+    icon: "/about/high-quality.gif",
+    title: "Quality",
+    description: "We ensure premium results by maintaining meticulous attention to detail and delivering reliable solutions that exceed industry standards."
+  },
+  {
+    id: 7,
+    icon: "/about/empathy.gif",
+    title: "Empathy",
+    description: "Understanding the needs and aspirations of our clients, employees, and partners drives every solution we create and every interaction we have."
+  },
+  {
+    id: 8,
+    icon: "/about/agility.gif",
+    title: "Agility",
+    description: "Our adaptability allows us to respond swiftly to changes, crafting solutions that address emerging challenges and opportunities with precision."
+  },
+  {
+    id: 9,
+    icon: "/about/sustainablity.gif",
+    title: "Sustainability",
+    description: "We integrate sustainable practices into our workflows, ensuring our operations positively impact the environment and society."
+  },
+  {
+    id: 10,
+    icon: "/about/results1.gif",
+    title: "Results",
+    description: "Our results-driven approach focuses on measurable outcomes, delivering solutions that drive success and align with client goals."
+  },
+];
