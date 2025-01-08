@@ -5,6 +5,7 @@ import { CompanyTimeline } from '@/components/AboutPage/CompanyTimeline'
 import CompanyValues from '@/components/AboutPage/CompanyValues'
 import CompanyProcess from '@/components/AboutPage/CompanyProcess'
 import Team from '@/components/AboutPage/Team'
+import BookDemo from '@/components/BookDemo'
 
 const Page = () => {
   return (
@@ -18,6 +19,7 @@ const Page = () => {
           <CompanyProcess/>
           <CompanyTimeline/>
           <Team/>
+          <BookDemo/>  
         </div>
       </section>
     </main>
