@@ -34,18 +34,24 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full font-sans md:px-10"
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          About My Journey
+        <h2 className="text-3xl md:text-4xl mb-4 text-purple font-montserrat max-w-4xl uppercase">
+          My Professional Journey
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on MernStack for the past 2 years. Here&apos;s
-          a timeline of my journey.
+        <p className="text-white text-md md:text-base max-w-4xl">
+          With over two years of dedicated experience in building high-performance web applications using the MERN stack, I have honed my expertise in creating dynamic, scalable, and efficient digital solutions. Throughout my journey, I've specialized in developing seamless user experiences with React and integrating robust backend systems powered by Node.js, Express, and MongoDB.
+        </p>
+        <p className="text-white text-md md:text-base max-w-4xl mt-4">
+          At Webxode Solutions, we are committed to delivering custom web and mobile app development, UI/UX design, and digital marketing solutions that drive business growth. We take pride in our ability to provide tailored solutions that meet the unique needs of each client, empowering businesses to thrive in the digital landscape.
+        </p>
+        <p className="text-white text-md md:text-base max-w-4xl mt-4">
+          Our team is passionate about leveraging modern technologies, including React, Tailwind, and Next.js, to create cutting-edge products that enhance user engagement and streamline operations. With a focus on quality, innovation, and customer satisfaction, we aim to redefine the digital experience for businesses across industries.
         </p>
       </div>
+
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
@@ -66,7 +72,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>
-              {item.content}{" "}
+              {item.content}
             </div>
           </div>
         ))}
