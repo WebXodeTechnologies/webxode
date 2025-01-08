@@ -21,7 +21,7 @@ const CompanyProcess = () => {
 
         {/* Grid 2 */}
         <div className='flex flex-col justify-center'>
-          <h1 className='text-3xl font-montserrat text-purple mb-5 uppercase tracking-wide text-center md:text-left'>
+          <h1 className='text-3xl text-purple mb-5 uppercase tracking-wide text-center md:text-left font-montserrat'>
             Why Choose Us
           </h1>
           <p className='text-center md:text-left text-lg md:text-xl font-normal mb-8'>
