@@ -32,6 +32,7 @@ const CompanyValues = () => {
               alt={value.title}
               width={50}
               height={50}
+              unoptimized
               className="rounded-md object-cover"
             />
           </div>
