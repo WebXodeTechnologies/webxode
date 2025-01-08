@@ -322,3 +322,31 @@ export const Values = [
     description: "Our results-driven approach focuses on measurable outcomes, delivering solutions that drive success and align with client goals."
   },
 ];
+
+export const process = [
+  {
+    id: 1,
+    icon: "/company/3d mantra.gif", // Replace with your actual icon path
+    title: "3 D Mantra",
+    description: "We bring unparalleled professionalism to every project, ensuring exceptional quality and a seamless client experience."
+  },
+  {
+    id: 2,
+    icon: "/company/professional.gif", // Replace with your actual icon path
+    title: "Professional Excellence",
+    description: "We bring unparalleled professionalism to every project, ensuring exceptional quality and a seamless client experience."
+  },
+  {
+    id: 3,
+    icon: "/company/creative.gif", // Replace with your actual icon path
+    title: "Creative Solutions",
+    description: "Our team thrives on creativity, delivering unique and innovative solutions tailored to your business challenges."
+  },
+  {
+    id: 4,
+    icon: "/company/delivery.gif", // Replace with your actual icon path
+    title: "On-Time Delivery",
+    description: "Time is our priority. We ensure every project is delivered on schedule without compromising on quality."
+  }
+];
+

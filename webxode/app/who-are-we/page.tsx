@@ -3,6 +3,7 @@ import Intro from "@/components/AboutPage/IntroComponent"
 import Mission from '@/components/AboutPage/Mission'
 import { CompanyTimeline } from '@/components/AboutPage/CompanyTimeline'
 import CompanyValues from '@/components/AboutPage/CompanyValues'
+import CompanyProcess from '@/components/AboutPage/CompanyProcess'
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
           <Intro />
           <Mission/>
           <CompanyValues/>
+          <CompanyProcess/>
         </div>
       </section>
     </main>

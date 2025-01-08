@@ -32,6 +32,7 @@ const CompanyValues = () => {
               alt={value.title}
               width={50}
               height={50}
+              unoptimized
               className="rounded-md object-cover"
             />
           </div>
@@ -61,7 +62,7 @@ const CompanyValues = () => {
               transform: `translateX(-${
                 (currentIndex % (totalCards - cardsToShow + 1)) *
                 (100 / cardsToShow)
-              }%)`, // Adjust the translateX based on the current index
+              }%)`, 
             }}
           >
             {renderCards()}
