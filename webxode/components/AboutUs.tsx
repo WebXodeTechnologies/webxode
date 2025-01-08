@@ -5,6 +5,8 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
 import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -153,7 +155,7 @@ const AboutUs = () => {
           ref={thirdScroll}
           className="bg-black w-full h-full absolute top-0 left-0 z-[2]"
         >
-          <div className="flex items-center justify-center h-full w-full relative">
+          <div className="flex flex-col items-center justify-center h-full w-full relative">
             <div
               ref={ctaText}
               className="w-[90%] sm:w-[75%] md:w-[60%] lg:w-[50%] xl:w-[40%] 2xl:w-[35%] 4xl:w-[30%] 6xl:w-[25%] text-center text-white"
@@ -166,6 +168,11 @@ const AboutUs = () => {
                 reality. 🚀
               </p>
             </div>
+            <div className="flex justify-center items-center mt-5">
+            <Link href="/connect-with-us">
+             <MagicButton title="Get Started" icon={<FaLocationArrow/>} position="right" />
+            </Link>
+          </div>
           </div>
         </div>
       </div>
