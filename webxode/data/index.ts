@@ -2,7 +2,7 @@ export const navItems = [
   { name: "Who are we?", link: "/who-are-we" },
   { name: "What we do?", link: "/what-we-do" },
   { name: "How we do?", link: "/how-we-do" },
-  { name: "Connect with Us", link: "/connect-with-us"},
+  { name: "Connect with Us", link: "/connect-with-us" },
 ];
 
 
@@ -214,7 +214,7 @@ export const FAQ = [
 ];
 
 
- export const people = [
+export const people = [
   {
     id: 1,
     name: "John Doe",
@@ -327,26 +327,26 @@ export const process = [
   {
     id: 1,
     icon: "/company/3d mantra.gif", // Replace with your actual icon path
-    title: "3 D Mantra",
-    description: "We bring unparalleled professionalism to every project, ensuring exceptional quality and a seamless client experience."
+    title: "3D Design, Development, and Delivery",
+    description: "Our 3D Design, Development, and Delivery process ensures your ideas are transformed into high-quality, innovative solutions, executed with precision and delivered on time."
   },
   {
     id: 2,
     icon: "/company/professional.gif", // Replace with your actual icon path
-    title: "Professional Excellence",
-    description: "We bring unparalleled professionalism to every project, ensuring exceptional quality and a seamless client experience."
+    title: "Professional Web Development",
+    description: "We specialize in professional web development, offering exceptional quality, seamless integration, and user-centric solutions to ensure your business stands out."
   },
   {
     id: 3,
     icon: "/company/creative.gif", // Replace with your actual icon path
-    title: "Creative Solutions",
-    description: "Our team thrives on creativity, delivering unique and innovative solutions tailored to your business challenges."
+    title: "Creative Digital Solutions",
+    description: "Our team excels at crafting creative digital solutions, delivering innovative web designs, custom applications, and branding strategies tailored to your business needs."
   },
   {
     id: 4,
     icon: "/company/delivery.gif", // Replace with your actual icon path
-    title: "On-Time Delivery",
-    description: "Time is our priority. We ensure every project is delivered on schedule without compromising on quality."
+    title: "Timely Project Delivery",
+    description: "On-time delivery is at the heart of our service. We prioritize meeting deadlines while maintaining the highest standards of quality, ensuring your project is delivered without delays."
   }
 ];
 
