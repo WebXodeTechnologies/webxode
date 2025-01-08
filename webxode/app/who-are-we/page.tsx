@@ -15,6 +15,7 @@ const Page = () => {
           <Mission/>
           <CompanyValues/>
           <CompanyProcess/>
+          <CompanyTimeline/>
         </div>
       </section>
     </main>
