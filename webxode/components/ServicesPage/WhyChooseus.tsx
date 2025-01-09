@@ -7,7 +7,7 @@ const WhyChooseus = () => {
     <section className="py-20">
       {/* Header Section */}
       <div className="container mx-auto flex flex-col">
-        <h1 className="text-3xl text-purple text-center font-montserrat tracking-wide mb-5">
+      <h1 className="text-3xl md:text-4xl lg:text-4xl font-normal text-purple font-montserrat text-center mb-4">
           Why Choose Us?
         </h1>
         <p className="text-xl text-white text-center font-normal">
@@ -29,7 +29,7 @@ const WhyChooseus = () => {
                 alt={service.title}
                 width={64}
                 height={64}
-                className="w-16 h-16 object-contain"
+                className="w-16 h-16 object-contain rounded-md"
                 unoptimized
               />
             </div>
