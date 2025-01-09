@@ -42,6 +42,7 @@ const Mission = () => {
                   width={80}
                   height={80}
                   className="rounded-full object-fit"
+                  unoptimized
                 />
               </div>
               <div className="flex-1">
