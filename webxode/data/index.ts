@@ -409,7 +409,7 @@ export const datapoints = [
   },
   {
     id: 6,
-    icon: "/services/support.gif",  // Added ".gif" to the icon path
+    icon: "/services/support.gif", 
     title: "World-class support during and after project completion",  
   }
 ]
