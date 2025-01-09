@@ -380,3 +380,36 @@ export const serviceChoose = [
       "Your product is built by seasoned experts with extensive experience in their respective domains.",
   },
 ];
+
+export const datapoints = [
+  {
+    id: 1,
+    icon: "/services/path.gif",
+    title: "Validate your vision and provide a clear roadmap"
+  },
+  {
+    id: 2,
+    icon: "/services/innovation.gif",
+    title: "Innovate solutions for complex problems",  
+  },
+  {
+    id: 3,
+    icon: "/services/delivery.gif",
+    title: "Deliver products at 10x speed and maximize efficiency",  
+  },
+  {
+    id: 4,
+    icon: "/services/tech.gif",
+    title: "Adapt to the latest technologies for better product",  
+  },
+  {
+    id: 5,
+    icon: "/services/scale.gif",
+    title: "Ensure product scalability, security, and modularity",  
+  },
+  {
+    id: 6,
+    icon: "/services/support.gif",  // Added ".gif" to the icon path
+    title: "World-class support during and after project completion",  
+  }
+]
