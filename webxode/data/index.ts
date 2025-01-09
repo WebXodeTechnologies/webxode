@@ -350,3 +350,33 @@ export const process = [
   }
 ];
 
+export const serviceChoose = [
+  {
+    id: 1,
+    icon: "/services/transparent.gif",
+    title: "Transparent Process",
+    description:
+      "Experience seamless collaboration with complete transparency at every stage of development",
+  },
+  {
+    id: 2,
+    icon: "/services/payment.gif",
+    title: "Easy Payments",
+    description:
+      "Flexible milestone payments let you pay as we deliver results, ensuring progress every 15 days.",
+  },
+  {
+    id: 3,
+    icon: "/services/quality.gif",
+    title: "Robust Quality",
+    description:
+      "Every product undergoes rigorous quality checks and testing to ensure 100% reliability and performance.",
+  },
+  {
+    id: 4,
+    icon: "/services/expert.gif",
+    title: "Expert Craftsmanship",
+    description:
+      "Your product is built by seasoned experts with extensive experience in their respective domains.",
+  },
+];
