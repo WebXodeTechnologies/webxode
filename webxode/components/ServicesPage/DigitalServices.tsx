@@ -13,6 +13,7 @@ import { BsFillCartCheckFill } from "react-icons/bs";
 import { FaAppStoreIos } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { GoArrowUpRight } from "react-icons/go";
+import MagicButton from "@/components/ui/MagicButton"
 
 const DigitalServices = () => {
   const features = [
@@ -125,7 +126,7 @@ const Feature = ({
       {index >= 4 && (
         <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
       )}
-      <div className="flex justify-center items-start mb-10 relative z-10 text-neutral-600 dark:text-neutral-400">
+      <div className="flex justify-center items-start mb-10 relative z-10 text-neutral-400 hover:text-blue-500">
         <div className="text-5xl">{icon}</div>
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10 ">
@@ -138,10 +139,10 @@ const Feature = ({
         {description}
       </p>
       <button
-        className="mt-5 px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium rounded-full hover:from-purple-600 hover:to-blue-600 hover:scale-105 transform transition-all duration-300 flex items-center justify-center space-x-2"
+        className="mt-5 px-8 py-3 text-white font-semibold rounded-full  hover:scale-105 transform transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg"
         onClick={() => router.push(link)}
       >
-        <span>Learn More</span>
+        <span className="text-lg">Learn More</span>
         <GoArrowUpRight className="text-xl" />
       </button>
     </div>
