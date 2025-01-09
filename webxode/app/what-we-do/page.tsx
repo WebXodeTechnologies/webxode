@@ -1,7 +1,6 @@
 import DevelopementProcess from '@/components/ServicesPage/DevelopementProcess'
 import DigitalBanner from '@/components/ServicesPage/DigitalBanner'
 import DigitalServices from '@/components/ServicesPage/DigitalServices'
-import Frameworks from '@/components/ServicesPage/Frameworks'
 import HeroBanner from '@/components/ServicesPage/HeroBanner'
 import ProposalCTA from '@/components/ServicesPage/ProposalCTA'
 import Tools from '@/components/ServicesPage/Tools'
@@ -21,7 +20,6 @@ const page = () => {
           <WorkFlow/>
           <DevelopementProcess/>
           <Tools/>
-          <Frameworks/>
           <ProposalCTA/>
          </div>
        </section>
