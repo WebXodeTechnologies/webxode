@@ -470,3 +470,78 @@ export const Devprocess = [
     shortTitle: "Support",
   },
 ];
+
+export const techtools = [
+  {
+    id: 1,
+    title: "Web Development",
+    tools: [
+      { name: "React", icon: "/techstack/react-seeklogo.svg" },
+      { name: "Next.js", icon: "/techstack/next-js-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Animation Libraries",
+    tools: [
+      { name: "GSAP", icon: "/techstack/greensock-gsap-icon-seeklogo.svg" },
+      { name: "Three.js", icon: "/techstack/three-js-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Design Tools",
+    tools: [
+      { name: "Adobe Suite", icon: "/techstack/adobe-illustrator-cc-seeklogo.svg" },
+      { name: "Figma", icon: "/techstack/figma-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Android App Development",
+    tools: [
+      { name: "React Native", icon: "/techstack/react-seeklogo.svg" },
+      { name: "Kotlin", icon: "/techstack/kotlin-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 5,
+    title: "iOS App Development",
+    tools: [
+      { name: "Flutter", icon: "/techstack/flutter-seeklogo.svg" },
+      { name: "React Native", icon: "/techstack/react-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 6,
+    title: "Deployment Platforms",
+    tools: [
+      { name: "Netlify", icon: "/techstack/netlify-seeklogo.svg" },
+      { name: "Vercel", icon: "/techstack/vercel-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 7,
+    title: "Databases",
+    tools: [
+      { name: "MongoDB", icon: "/techstack/mongodb-seeklogo-3.svg" },
+      { name: "Firebase", icon: "/techstack/firebase-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 8,
+    title: "Server-Side Development",
+    tools: [
+      { name: "Node.js", icon: "/techstack/node-js-seeklogo.svg" },
+      { name: "Express.js", icon: "/techstack/express-js-seeklogo.svg" },
+    ],
+  },
+  {
+    id: 9,
+    title: "Testing Tools",
+    tools: [
+      { name: "Selenium", icon: "/techstack/selenium-seeklogo.svg" },
+      { name: "Postman", icon: "/techstack/postman-seeklogo.svg" },
+    ],
+  },
+];
