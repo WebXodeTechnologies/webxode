@@ -7,13 +7,13 @@ const DevelopmentProcess = () => {
     <section className="py-20 overflow-x-clip">
       {/* Header Section */}
       <div className="flex flex-col justify-center mb-10 text-center">
-        <h1 className="text-4xl font-bold font-montserrat text-purple tracking-wide mb-5">
+        <h1 className="text-3xl md:text-4xl font-bold font-montserrat text-purple tracking-wide mb-5">
           Our Development Process
         </h1>
-        <p className="text-lg text-white max-w-2xl mx-auto">
+        <p className="text-xl text-white max-w-4xl  mx-auto">
           We ensure a streamlined, transparent, and client-focused development process.
         </p>
-        <p className="text-lg text-white max-w-2xl mx-auto">
+        <p className="text-xl text-white max-w-2xl  mx-auto">
           Collaborate with us to transform your ideas into innovative, high-quality solutions that meet your unique needs.
         </p>
       </div>
