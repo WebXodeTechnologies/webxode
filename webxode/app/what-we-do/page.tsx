@@ -1,5 +1,5 @@
 
-import RecentWorks from '@/components/RecentWorks'
+// import RecentWorks from '@/components/RecentWorks'
 import DevelopementProcess from '@/components/ServicesPage/DevelopementProcess'
 import DigitalBanner from '@/components/ServicesPage/DigitalBanner'
 import DigitalServices from '@/components/ServicesPage/DigitalServices'
