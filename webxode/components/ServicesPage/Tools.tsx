@@ -7,10 +7,10 @@ const Tools = () => {
     <section className="py-20">
       {/* Header Section */}
       <div className="flex flex-col justify-center items-center gap-6 text-center mb-10">
-        <h1 className="text-4xl font-bold font-montserrat text-purple-400 tracking-wide">
+        <h1 className="text-4xl font-bold font-montserrat text-purple tracking-wide">
           Tools And Technologies
         </h1>
-        <p className="text-lg text-gray-300 max-w-3xl leading-relaxed">
+        <p className="text-xl text-gray-300 max-w-3xl leading-relaxed">
           Our passion for technology drives our relentless pursuit of innovation. 
           We explore cutting-edge tools and embrace the latest trends to deliver impactful solutions.
         </p>
@@ -41,7 +41,7 @@ const Tools = () => {
                       unoptimized
                     />
                   </div>
-                  <span className="text-lg text-gray-300 font-medium">{tool.name}</span>
+                  <span className="text-lg text-gray-300 font-medium font-montserrat">{tool.name}</span>
                 </li>
               ))}
             </ul>
