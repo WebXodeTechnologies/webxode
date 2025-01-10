@@ -1,3 +1,5 @@
+
+import RecentWorks from '@/components/RecentWorks'
 import DevelopementProcess from '@/components/ServicesPage/DevelopementProcess'
 import DigitalBanner from '@/components/ServicesPage/DigitalBanner'
 import DigitalServices from '@/components/ServicesPage/DigitalServices'
@@ -18,6 +20,7 @@ const page = () => {
           <DigitalBanner/>
           <WhyChooseus/>
           <WorkFlow/>
+          {/* <RecentWorks/> */}
           <DevelopementProcess/>
           <Tools/>
           <ProposalCTA/>
