@@ -413,3 +413,60 @@ export const datapoints = [
     title: "World-class support during and after project completion",  
   }
 ]
+
+export const Devprocess = [
+  {
+    id: 1,
+    icon: "/services/assesment.gif",
+    title: "Need Assessment",
+    shortTitle: "Assess",
+  },
+  {
+    id: 2,
+    icon: "/services/design.gif",
+    title: "Design",
+    shortTitle: "Design",
+  },
+  {
+    id: 3,
+    icon: "/services/development.gif",
+    title: "Development",
+    shortTitle: "Develop",
+  },
+  {
+    id: 4,
+    icon: "/services/build.gif",
+    title: "Build & Deployment",
+    shortTitle: "Deploy",
+  },
+  {
+    id: 5,
+    icon: "/services/bug.gif",
+    title: "Fix Bugs",
+    shortTitle: "Fix Bugs",
+  },
+  {
+    id: 6,
+    icon: "/services/live.gif",
+    title: "Launch",
+    shortTitle: "Launch",
+  },
+  {
+    id: 7,
+    icon: "/services/fix.gif",
+    title: "Enhance",
+    shortTitle: "Enhance",
+  },
+  {
+    id: 8,
+    icon: "/services/speed.gif",
+    title: "Maintain",
+    shortTitle: "Maintain",
+  },
+  {
+    id: 9,
+    icon: "/services/support.gif",
+    title: "Support",
+    shortTitle: "Support",
+  },
+];
