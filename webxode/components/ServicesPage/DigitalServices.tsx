@@ -1,5 +1,5 @@
-'use client'
-import React from 'react';
+"use client";
+import React from "react";
 import { cn } from "@/lib/utils";
 import {
   FaDesktop,
@@ -13,7 +13,7 @@ import { BsFillCartCheckFill } from "react-icons/bs";
 import { FaAppStoreIos } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { GoArrowUpRight } from "react-icons/go";
-import MagicButton from "@/components/ui/MagicButton"
+
 
 const DigitalServices = () => {
   const features = [
@@ -84,7 +84,10 @@ const DigitalServices = () => {
         </h1>
         {/* Description */}
         <p className="text-lg md:text-xl lg:text-xl text-white max-w-4xl text-wrap px-2">
-          We deliver high-performance, secure, and scalable digital solutions to help businesses thrive. From web and mobile apps to UI/UX design, E-Commerce, business consulting, and digital marketing, we leverage cutting-edge tools and technologies to meet your unique needs.
+          We deliver high-performance, secure, and scalable digital solutions to
+          help businesses thrive. From web and mobile apps to UI/UX design,
+          E-Commerce, business consulting, and digital marketing, we leverage
+          cutting-edge tools and technologies to meet your unique needs.
         </p>
       </div>
 

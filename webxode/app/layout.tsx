@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "./provider";
-import localfont from "next/font/local"
+import localfont from "next/font/local";
 import "./globals.css";
 import WhatsAppButton from "@/components/Whataspp";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data/index";
 import Footer from "@/components/Footer";
 
-
-const MontserratAlt1 = localfont(
-  {
-    src: [{
-      path:"../public/montserrat-alt1/webfonts/MontserratAlt1-Regular.ttf",
-      weight:"700"
-    },],
-    variable:"--font-montserrat"
-  })
+const MontserratAlt1 = localfont({
+  src: [
+    {
+      path: "../public/montserrat-alt1/webfonts/MontserratAlt1-Regular.ttf",
+      weight: "700",
+    },
+  ],
+  variable: "--font-montserrat",
+});
 
 export const metadata: Metadata = {
   title: "WebXode Technologies",
@@ -29,7 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${MontserratAlt1.variable}`}>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${MontserratAlt1.variable}`}
+    >
       <body>
         <ThemeProvider
           attribute="class"
@@ -40,7 +44,7 @@ export default function RootLayout({
           <FloatingNav navItems={navItems} />
           {children}
         </ThemeProvider>
-        <Footer/>
+        <Footer />
         <WhatsAppButton />
       </body>
     </html>

@@ -9,8 +9,6 @@ import Testimonial from "@/components/Testimonial";
 import Faq from "@/components/Faq";
 import BookDemo from "@/components/BookDemo";
 import Macbookscroll from "@/components/Macbookscroll";
-import Footer from "@/components/Footer";
-
 
 
 export default function Home() {
@@ -22,12 +20,12 @@ export default function Home() {
         <RecentWorks />
         <Services />
         <OurApproach />
-        <RecentProjects/>
-        <TechStack/>
-        <Testimonial/>
-        <Faq/> 
-        <BookDemo/>  
-        <Macbookscroll/>
+        <RecentProjects />
+        <TechStack />
+        <Testimonial />
+        <Faq />
+        <BookDemo />
+        <Macbookscroll />
       </div>
     </main>
   );

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("../public/montserrat-alt1/webfonts/fonts.css");
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,7 +14,6 @@ body {
   scroll-behavior: smooth;
   background-color: black;
 }
-
 
 @layer base {
   :root {
@@ -102,4 +100,3 @@ body {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
-

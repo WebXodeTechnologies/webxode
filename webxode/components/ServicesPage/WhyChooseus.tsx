@@ -7,11 +7,12 @@ const WhyChooseus = () => {
     <section className="py-20">
       {/* Header Section */}
       <div className="container mx-auto flex flex-col">
-      <h1 className="text-3xl md:text-4xl lg:text-4xl font-normal text-purple font-montserrat text-center mb-4">
+        <h1 className="text-3xl md:text-4xl lg:text-4xl font-normal text-purple font-montserrat text-center mb-4">
           Why Choose Us?
         </h1>
         <p className="text-xl text-white text-center font-normal">
-          Driving business success with smart, scalable, and client-focused digital solutions powered by advanced technologies.
+          Driving business success with smart, scalable, and client-focused
+          digital solutions powered by advanced technologies.
         </p>
       </div>
 

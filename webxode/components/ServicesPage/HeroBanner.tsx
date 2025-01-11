@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 import Heroimage from "@/public/services/hero.svg";
 import MagicButton from "@/components/ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
@@ -14,7 +14,9 @@ const HeroBanner = () => {
             Empowering Businesses with Custom Solutions
           </h1>
           <p className="text-base md:text-lg text-white">
-            Transforming ideas into robust applications to drive growth and scalability for your business. Our expert team delivers tailored digital solutions that align with your goals.
+            Transforming ideas into robust applications to drive growth and
+            scalability for your business. Our expert team delivers tailored
+            digital solutions that align with your goals.
           </p>
           <div className="mt-5">
             <MagicButton
@@ -24,7 +26,6 @@ const HeroBanner = () => {
             />
           </div>
         </div>
-
         {/* Right Image */}
         <div className="relative">
           <Image

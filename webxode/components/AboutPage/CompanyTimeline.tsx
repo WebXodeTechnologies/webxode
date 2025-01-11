@@ -1,17 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/Timeline";
-import Project1 from "@/public/p1.png"
-import Project2 from "@/public/mirror.png"
-import Project3 from "@/public/Qkart.png"
-import Project4 from "@/public/sb1.png"
-import Project5 from "@/public/portfolio.png"
-import Project6 from "@/public/law.png"
-import Project7 from "@/public/qtify.png"
-import Project8 from "@/public/Qtrip.png"
-
-
-
+import Project1 from "@/public/p1.png";
+import Project2 from "@/public/mirror.png";
+import Project3 from "@/public/Qkart.png";
+import Project4 from "@/public/sb1.png";
+import Project5 from "@/public/portfolio.png";
+import Project6 from "@/public/law.png";
+import Project7 from "@/public/qtify.png";
+import Project8 from "@/public/Qtrip.png";
 
 export function CompanyTimeline() {
   const data = [
@@ -20,7 +17,14 @@ export function CompanyTimeline() {
       content: (
         <div>
           <p className="text-white text-md md:text-lg font-normal mb-8">
-            I have successfully designed, developed, and delivered numerous industrial projects using the MERN stack. With a focus on creating scalable, high-performance applications, I’ve collaborated with businesses to craft custom web and mobile solutions that meet their unique needs. My experience spans across building robust backend architectures, crafting responsive front-end user interfaces, and ensuring seamless integrations to drive operational efficiency and growth.
+            I have successfully designed, developed, and delivered numerous
+            industrial projects using the MERN stack. With a focus on creating
+            scalable, high-performance applications, I’ve collaborated with
+            businesses to craft custom web and mobile solutions that meet their
+            unique needs. My experience spans across building robust backend
+            architectures, crafting responsive front-end user interfaces, and
+            ensuring seamless integrations to drive operational efficiency and
+            growth.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -61,10 +65,17 @@ export function CompanyTimeline() {
       content: (
         <div>
           <p className="text-white text-sm md:text-lg font-normal mb-8">
-            In early 2023, I transitioned into full-time software development, bringing with me a passion for creating intuitive and scalable applications. During this period, I worked on various enterprise-level projects, primarily using the MERN stack.
+            In early 2023, I transitioned into full-time software development,
+            bringing with me a passion for creating intuitive and scalable
+            applications. During this period, I worked on various
+            enterprise-level projects, primarily using the MERN stack.
           </p>
           <p className="text-white text-sm md:text-lg font-normal mb-8">
-            My focus was on delivering robust backend solutions while ensuring smooth, responsive front-end experiences. I collaborated closely with cross-functional teams to drive seamless integrations and efficient workflows. Here's a glimpse of some of the notable projects I contributed to during this time.
+            My focus was on delivering robust backend solutions while ensuring
+            smooth, responsive front-end experiences. I collaborated closely
+            with cross-functional teams to drive seamless integrations and
+            efficient workflows. Here's a glimpse of some of the notable
+            projects I contributed to during this time.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -104,7 +115,8 @@ export function CompanyTimeline() {
       content: (
         <div>
           <p className="text-white text-md md:text-lg font-normal mb-4">
-            Deployed 5 high-performance components to enhance user experience on GitHub repositories so far.
+            Deployed 5 high-performance components to enhance user experience on
+            GitHub repositories so far.
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-white text-md md:text-lg">

@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import { Devprocess } from '@/data/index';
+import React from "react";
+import Image from "next/image";
+import { Devprocess } from "@/data/index";
 
 const DevelopmentProcess = () => {
   return (
@@ -11,13 +11,14 @@ const DevelopmentProcess = () => {
           Our Development Process
         </h1>
         <p className="text-xl text-white max-w-4xl  mx-auto">
-          We ensure a streamlined, transparent, and client-focused development process.
+          We ensure a streamlined, transparent, and client-focused development
+          process.
         </p>
         <p className="text-xl text-white max-w-2xl  mx-auto">
-          Collaborate with us to transform your ideas into innovative, high-quality solutions that meet your unique needs.
+          Collaborate with us to transform your ideas into innovative,
+          high-quality solutions that meet your unique needs.
         </p>
       </div>
-
       {/* Process Steps */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 container mx-auto max-w-6xl overflow-hidden">
         {Devprocess.map((step) => (
@@ -35,7 +36,9 @@ const DevelopmentProcess = () => {
                 unoptimized
               />
             </div>
-            <h3 className="text-xl font-semibold text-black mb-2 font-montserrat">{step.title}</h3>
+            <h3 className="text-xl font-semibold text-black mb-2 font-montserrat">
+              {step.title}
+            </h3>
           </div>
         ))}
       </div>
