@@ -20,12 +20,12 @@ const HeroSection = () => {
 
         {/* Grid 2 (Optional: Image for SEO) */}
         <div className="flex justify-center items-center">
-          <Image 
+          <Image
             src={Image1}
-            alt="Webxode - Innovative Software Development" 
-            width={600} 
-            height={600} 
-            className="rounded-lg shadow-lg" 
+            alt="Webxode - Innovative Software Development"
+            width={600}
+            height={600}
+            className="rounded-lg shadow-lg"
           />
         </div>
       </div>
