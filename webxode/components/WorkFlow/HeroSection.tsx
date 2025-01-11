@@ -5,7 +5,7 @@ import Image1 from '@/public/workflow/process.svg'
 const HeroSection = () => {
   return (
     <section className="py-20">
-      <div className=" container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className=" container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl">
         {/* Grid 1 */}
         <div className="flex flex-col gap-4 mb-5">
           {/* SEO-Optimized Heading */}
