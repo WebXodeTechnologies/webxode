@@ -22,7 +22,7 @@ const Promise = () => {
             >
               {item.icon && (
                 <div className="mb-4">
-                  <Image src={item.icon} alt={item.title} width={64} height={64} />
+                  <Image src={item.icon} alt={item.title} width={64} height={64} unoptimized className='rounded-md' />
                 </div>
               )}
               <h3 className="text-xl font-semibold text-white mb-2 font-montserrat">{item.title}</h3>

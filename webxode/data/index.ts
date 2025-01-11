@@ -563,3 +563,24 @@ export const promise = [
     title: "Exceeding Your Expectations"
   }
 ]
+
+export const Assistance = [
+  {
+    id: 1,
+    icon: "/workflow/wrong-route.gif",
+    title: "Initiate",
+    description: "Not sure where to begin? We provide expert guidance to help you kickstart your business journey with a clear roadmap tailored to your unique goals."
+  },
+  {
+    id: 2,
+    icon: "/workflow/career-pathway.gif",
+    title: "Expand",
+    description: "Ready to grow but unsure how? We help you build a strategic plan to scale your business, enhance partnerships, and increase revenue efficiently."
+  },
+  {
+    id: 3,
+    icon: "/workflow/management.gif",
+    title: "Sustain",
+    description: "Looking to streamline your operations? We assist in creating standardized workflows and strategies that strengthen your business foundation and boost productivity."
+  }
+]
