@@ -545,3 +545,21 @@ export const techtools = [
     ],
   },
 ];
+
+export const promise = [
+  {
+    id: 1,
+    icon: "/services/quality.gif",
+    title: "Premium Quality for Every Product"
+  },
+  {
+    id: 2,
+    icon: "/workflow/success.gif",
+    title: "Enjoy a Smooth Journey"
+  },
+  {
+    id: 3,
+    icon: "/workflow/analytics.gif",
+    title: "Exceeding Your Expectations"
+  }
+]
