@@ -31,7 +31,7 @@ const ProposalCTA = () => {
             <FlipWords words={words} />
           </span>
           websites with <br />
-          <p className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer text-center uppercase font-montserrat mt-[1.5rem] mb-[3.5rem]">WebXode</p>
+          <p className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer text-center uppercase font-montserrat mt-[1.5rem] mb-[3.5rem] tracking-wider">WebXode</p>
           <div className="mt-12 flex justify-center">
             <a href="/get-proposal" className="relative inline-block">
               <button className="px-10 py-4 text-xl font-semibold text-white bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600 rounded-lg shadow-2xl transform transition-all duration-300 ease-in-out hover:bg-gradient-to-l hover:from-pink-600 hover:to-indigo-500 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300 flex items-center">
