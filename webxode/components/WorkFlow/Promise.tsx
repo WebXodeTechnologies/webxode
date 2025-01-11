@@ -1,9 +1,8 @@
-import React from 'react'
-import Image from "next/image"
-import { promise } from "@/data/index"
+import React from "react";
+import Image from "next/image";
+import { promise } from "@/data/index";
 
 const Promise = () => {
-
   return (
     <section className="py-20">
       <div className="container mx-auto">
@@ -12,9 +11,7 @@ const Promise = () => {
             What We Promise, We Deliver
           </h1>
         </div>
-
         <div className="container mx-auto max-w-4xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Map through promise array */}
           {promise.map((item) => (
             <div
               key={item.id}
@@ -22,16 +19,25 @@ const Promise = () => {
             >
               {item.icon && (
                 <div className="mb-4">
-                  <Image src={item.icon} alt={item.title} width={64} height={64} unoptimized className='rounded-md' />
+                  <Image
+                    src={item.icon}
+                    alt={item.title}
+                    width={64}
+                    height={64}
+                    unoptimized
+                    className="rounded-md"
+                  />
                 </div>
               )}
-              <h3 className="text-xl font-semibold text-white mb-2 font-montserrat">{item.title}</h3>
+              <h3 className="text-xl font-semibold text-white mb-2 font-montserrat">
+                {item.title}
+              </h3>
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Promise
+export default Promise;

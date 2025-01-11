@@ -62,7 +62,7 @@ const CompanyValues = () => {
               transform: `translateX(-${
                 (currentIndex % (totalCards - cardsToShow + 1)) *
                 (100 / cardsToShow)
-              }%)`, 
+              }%)`,
             }}
           >
             {renderCards()}

@@ -390,27 +390,27 @@ export const datapoints = [
   {
     id: 2,
     icon: "/services/innovation.gif",
-    title: "Innovate solutions for complex problems",  
+    title: "Innovate solutions for complex problems",
   },
   {
     id: 3,
     icon: "/services/delivery.gif",
-    title: "Deliver products at 10x speed and maximize efficiency",  
+    title: "Deliver products at 10x speed and maximize efficiency",
   },
   {
     id: 4,
     icon: "/services/tech.gif",
-    title: "Adapt to the latest technologies for better product",  
+    title: "Adapt to the latest technologies for better product",
   },
   {
     id: 5,
     icon: "/services/scale.gif",
-    title: "Ensure product scalability, security, and modularity",  
+    title: "Ensure product scalability, security, and modularity",
   },
   {
     id: 6,
-    icon: "/services/support.gif", 
-    title: "World-class support during and after project completion",  
+    icon: "/services/support.gif",
+    title: "World-class support during and after project completion",
   }
 ]
 

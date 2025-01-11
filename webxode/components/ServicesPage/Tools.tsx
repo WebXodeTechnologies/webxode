@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Image from "next/image";
 import { techtools } from "@/data/index";
 
@@ -11,8 +11,9 @@ const Tools = () => {
           Tools And Technologies
         </h1>
         <p className="text-xl text-gray-300 max-w-3xl leading-relaxed">
-          Our passion for technology drives our relentless pursuit of innovation. 
-          We explore cutting-edge tools and embrace the latest trends to deliver impactful solutions.
+          Our passion for technology drives our relentless pursuit of
+          innovation. We explore cutting-edge tools and embrace the latest
+          trends to deliver impactful solutions.
         </p>
       </div>
 
@@ -28,20 +29,19 @@ const Tools = () => {
             </h2>
             <ul className="space-y-4">
               {category.tools.map((tool, index) => (
-                <li
-                  key={index}
-                  className="flex flex-col items-center"
-                >
+                <li key={index} className="flex flex-col items-center">
                   <div className="relative w-20 h-20 mb-2 object-contain">
                     <Image
                       src={tool.icon}
                       alt={tool.name}
-                      layout='fill'
+                      layout="fill"
                       className="rounded-lg bg-white p-2"
                       unoptimized
                     />
                   </div>
-                  <span className="text-lg text-gray-300 font-medium font-montserrat">{tool.name}</span>
+                  <span className="text-lg text-gray-300 font-medium font-montserrat">
+                    {tool.name}
+                  </span>
                 </li>
               ))}
             </ul>

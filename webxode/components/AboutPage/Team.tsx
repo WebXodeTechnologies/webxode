@@ -7,7 +7,7 @@ import { BackgroundGradient } from "../../components/ui/BackgroundGradient";
 import linkedinicon from "@/public/about/linkedin.svg";
 import githubicon from "@/public/about/github.svg";
 import websiteicon from "@/public/about/webiste.svg";
-import Instagram from "@/public/about/instagram-svgrepo-com.svg"
+import Instagram from "@/public/about/instagram-svgrepo-com.svg";
 
 const teamMembers = [
   {
