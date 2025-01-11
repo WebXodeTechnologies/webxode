@@ -1,8 +1,12 @@
 import React from 'react'
+import Image from "next/image"
+import Workflow from "@/public/workflow/workflowimage1.svg"
 
 const DevelopmentProcess = () => {
   return (
-    <div>DevelopmentProcess</div>
+    <section className="py-20">
+      <Image src={Workflow} alt="workflow" width={1150} height={800} unoptimized className='object-contain w-full h-full'/>
+    </section>
   )
 }
 
