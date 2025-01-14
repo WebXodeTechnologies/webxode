@@ -1,6 +1,6 @@
 "use client";
-import React, { useEffect, useMemo, useRef, useState } from "react";
-import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
+import React, { useEffect, useRef } from "react";
+import { MotionValue,  useScroll, useTransform } from "framer-motion";
 import { cn } from "@/lib/utils";
 import {
   IconBrightnessDown,
@@ -47,50 +47,9 @@ export const MacbookScroll = ({
     offset: ["start start", "end start"],
   });
 
-  const [isMobile, setIsMobile] = useState(false);
-  const [screenSize, setScreenSize] = useState('xl'); 
-
-
-  useEffect(() => {
-    const updateScreenSize = () => {
-      const width = window.innerWidth;
   
-      if (width < 640) {
-        setScreenSize('sm');
-      } else if (width >= 640 && width < 768) {
-        setScreenSize('md');
-      } else if (width >= 768 && width < 1024) {
-        setScreenSize('lg');
-      } else if (width >= 1024 && width < 1280) {
-        setScreenSize('xl');
-      } else if (width >= 1280 && width < 1536) {
-        setScreenSize('2xl');
-      } else if (width >= 1536 && width < 1920) {
-        setScreenSize('3xl');
-      } else if (width >= 1920 && width < 2560) {
-        setScreenSize('4xl');
-      } else {
-        setScreenSize('6xl');
-      }
-    };
-  
-    // Initial check
-    updateScreenSize();
-  
-    // Listen for resize events
-    window.addEventListener('resize', updateScreenSize);
-  
-    // Cleanup the event listener on unmount
-    return () => {
-      window.removeEventListener('resize', updateScreenSize);
-    };
-  }, []);
-  
-  // Now you can use the screenSize state for any conditional rendering or logic
-  console.log(screenSize); 
-
-  const scaleX = useTransform(scrollYProgress, [0, 0.3], [1.2, isMobile ? 1 : 1.5]);
-  const scaleY = useTransform(scrollYProgress, [0, 0.3], [0.6, isMobile ? 1 : 1.5]);
+  const scaleX = useTransform(scrollYProgress, [0, 0.3], [1.2, 1.5]);
+  const scaleY = useTransform(scrollYProgress, [0, 0.3], [0.6, 1.5]);
   const translate = useTransform(scrollYProgress, [0, 1], [0, 1500]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
   const textTransform = useTransform(scrollYProgress, [0, 0.3], [0, 100]);
@@ -667,23 +626,4 @@ export const OptionKey = ({ className }: { className: string }) => {
   );
 };
 
-const AceternityLogo = () => {
-  return (
-    <svg
-      width="66"
-      height="65"
-      viewBox="0 0 66 65"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-3 w-3 text-white"
-    >
-      <path
-        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-        stroke="currentColor"
-        strokeWidth="15"
-        strokeMiterlimit="3.86874"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-};
+
