@@ -11,7 +11,7 @@ const Mission = () => {
       <div className="max-w-7xl mx-auto px-4 lg:px-6 xl:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 items-center">
           {/* Grid 1: Image */}
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center mb-10">
             <Image
               src={test}
               alt="Company illustration"

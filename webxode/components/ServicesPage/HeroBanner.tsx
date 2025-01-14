@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 const HeroBanner = () => {
   return (
     <section className="py-12 md:py-20">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 lg:px-16 items-center">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-4 lg:px-16 items-center">
         {/* Left Content */}
         <div className="flex flex-col gap-6">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-montserrat leading-snug text-purple">
