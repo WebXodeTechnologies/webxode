@@ -67,7 +67,7 @@ const OurApproach = () => {
             </div>
           </div>
           <div className="flex justify-center items-center mt-5">
-            <Link href="/how-we-do">
+            <Link href="/what-we-do">
              <MagicButton title="Know More" icon={<FaLocationArrow/>} position="right" />
             </Link>
           </div>

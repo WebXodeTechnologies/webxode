@@ -2,7 +2,6 @@ export const navItems = [
   { name: "Who are we?", link: "/who-are-we" },
   { name: "What we do?", link: "/what-we-do" },
   { name: "How we do?", link: "/how-we-do" },
-  { name: "Connect with Us", link: "/connect-with-us" },
 ];
 
 
