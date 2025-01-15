@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import Workflow from "@/public/workflow/workflowimage1.svg"
+import Workflow from "@/public/workflow/workflowimage3.svg"
 
 const DevelopmentProcess = () => {
   return (

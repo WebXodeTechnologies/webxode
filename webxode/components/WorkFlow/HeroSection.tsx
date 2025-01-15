@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Image1 from "@/public/workflow/process.svg";
+import Image1 from "@/public/workflow/image1.svg";
 
 const HeroSection = () => {
   return (
