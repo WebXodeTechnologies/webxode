@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGoogle, FaMicrosoft } from "react-icons/fa"; 
+import { FaGoogle, FaMicrosoft } from "react-icons/fa";
 
 const DemoCTA = () => {
   return (
@@ -7,10 +7,11 @@ const DemoCTA = () => {
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold mb-4">Book a Live Demo</h1>
         <p className="text-lg mb-8">
-          Schedule a personalized demo with us to see how Webxode can help elevate your business.
+          Schedule a personalized demo with us to see how Webxode can help
+          elevate your business.
           <br /> Choose your preferred platform and let&apos;s get started!
         </p>
-        
+
         <div className="flex justify-center gap-8">
           {/* Google Meet Button */}
           <a
