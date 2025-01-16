@@ -39,7 +39,7 @@ const DevelopmentProcess = () => {
 
         {/* Grid 2: Video Content */}
         <div className="flex justify-center items-center">
-          <video controls className="w-full h-full rounded-md shadow-lg">
+          <video controls className="w-full h-auto rounded-md shadow-lg">
             <source src="/path-to-your-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

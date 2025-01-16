@@ -5,7 +5,6 @@ import GettoKnow from '@/components/WorkFlow/GettoKnow'
 import HeroSection from '@/components/WorkFlow/HeroSection'
 import Payment from '@/components/WorkFlow/Payment'
 import Promise from '@/components/WorkFlow/Promise'
-import Questions from '@/components/WorkFlow/Questions'
 import DevelopmentProcess from "@/components/WorkFlow/DevelopmentProcess"
 import React from 'react'
 
@@ -20,7 +19,6 @@ const page = () => {
           <GettoKnow />
           <DevelopmentProcess />
           <Payment />
-          <Questions />
           <ProposalCTA />
         </div>
       </section>
