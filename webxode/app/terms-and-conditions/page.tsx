@@ -1,8 +1,11 @@
+import ComingSoon from '@/components/CommingSoon'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <section className='py-20'>
+      <ComingSoon/>
+    </section>
   )
 }
 
