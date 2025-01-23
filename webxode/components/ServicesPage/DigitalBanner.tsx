@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Image1 from "@/public/mockup.png";
+import Image1 from "@/public/macbook mockup.png";
 
 const DigitalBanner = () => {
   return (
