@@ -17,22 +17,22 @@ const Payment = () => {
           <ul className="list-disc pl-3 text-lg font-montserrat text-white space-y-3 leading-relaxed">
             <li>
               <strong className="text-purple">Design Approval:</strong>
-              <span className="text-green-500 ml-2">20% </span> After Design
+              <span className="text-green-500 ml-2">20% </span>Design
               Documentation Completion
             </li>
             <li>
               <strong className="text-purple">Frontend Completion:</strong>
-              <span className="text-green-500 ml-2">20%</span> After Demo Completion
+              <span className="text-green-500 ml-2">20%</span>Demo Completion
               of Frontend.
             </li>
             <li>
               <strong className="text-purple">Backend & Deployment:</strong>
-              <span className="text-green-500 ml-2">40%</span> After Backend &
+              <span className="text-green-500 ml-2">40%</span>Backend &
               Deployment Completion.
             </li>
             <li>
               <strong className="text-purple">Final Closure:</strong>
-              <span className="text-green-500 ml-2">20%</span> After Project Final
+              <span className="text-green-500 ml-2">20%</span>Project Final
               Approval.
             </li>
           </ul>
