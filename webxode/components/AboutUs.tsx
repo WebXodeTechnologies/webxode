@@ -169,8 +169,8 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="flex justify-center items-center mt-5">
-            <Link href="/connect-with-us">
-             <MagicButton title="Get Started" icon={<FaLocationArrow/>} position="right" />
+            <Link href="https://www.youtube.com/@Webxodetechnologies" target="_blank" rel="noopener noreferrer" >
+             <MagicButton title="Watch us on Youtube" icon={<FaLocationArrow/>} position="right" />
             </Link>
           </div>
           </div>

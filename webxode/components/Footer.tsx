@@ -47,12 +47,12 @@ const Footer = () => {
           {/* Icons in a row */}
           <div className="flex justify-center items-center space-x-8">
             <div className="flex flex-col items-center">
-              <a href="#" className="transition-transform transform hover:scale-110">
+              <a href="https://www.facebook.com/profile.php?id=61566478409721" className="transition-transform transform hover:scale-110">
                 <FaFacebookF className="text-[#4267B2] text-3xl" />
               </a>
             </div>
             <div className="flex flex-col items-center">
-              <a href="#" className="transition-transform transform hover:scale-110">
+              <a href="https://www.instagram.com/webxode/" className="transition-transform transform hover:scale-110">
                 <FaInstagram className="text-[#E1306C] text-3xl" />
               </a>
             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="flex flex-col items-center">
-              <a href="#" className="transition-transform transform hover:scale-110">
+              <a href="https://www.youtube.com/@Webxodetechnologies" className="transition-transform transform hover:scale-110">
                 <FaYoutube className="text-[#FF0000] text-3xl" />
               </a>
             </div>
