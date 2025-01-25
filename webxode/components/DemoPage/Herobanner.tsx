@@ -42,8 +42,9 @@ const Herobanner = () => {
           <Image
             src={Contact}
             alt="Contact Us"
-            width={900}
-            height={500}
+            width={600}
+            height={600}
+            unoptimized
             className="object-contain"
           />
         </div>
