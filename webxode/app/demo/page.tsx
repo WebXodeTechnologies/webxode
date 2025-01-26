@@ -1,7 +1,7 @@
 import DemoCTA from "@/components/DemoPage/DemoCTA";
 import React from "react";
-import ContactAersol from "@/components/DemoPage/ContactAerosol.js"
 import HeroBanner from "@/components/DemoPage/Herobanner";
+import ContactForm from "@/components/DemoPage/ContactForm";
 
 const page = () => {
   return (
@@ -9,8 +9,8 @@ const page = () => {
       <section className="py-20">
         <div className="container mx-auto px-2 sm:px-2 md:px-4">
             <HeroBanner/>
-            <ContactAersol/>
             <DemoCTA/>
+            <ContactForm/>
         </div>
       </section>
     </main>
