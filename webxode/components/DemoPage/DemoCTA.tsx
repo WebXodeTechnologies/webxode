@@ -5,14 +5,14 @@ const DemoCTA = () => {
   return (
     <section className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600 text-white py-20 px-6">
       <div className="container mx-auto text-center">
-        <h1 className="text-4xl font-bold mb-4">Book a Live Demo</h1>
-        <p className="text-lg mb-8">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-4">Book a Live Demo</h1>
+        <p className="text-base sm:text-lg mb-8">
           Schedule a personalized demo with us to see how Webxode can help
           elevate your business.
           <br /> Choose your preferred platform and let&apos;s get started!
         </p>
 
-        <div className="flex justify-center gap-8">
+        <div className="flex flex-col sm:flex-row justify-center gap-8">
           {/* Google Meet Button */}
           <a
             href="https://meet.google.com/"

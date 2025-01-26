@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion"; 
-import Contact from "@/public/demo/contactusimage1.svg";
+import Contact from "@/public/demo/office.svg";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 
@@ -67,8 +67,8 @@ const Herobanner = () => {
           <Image
             src={Contact}
             alt="Contact Us"
-            width={600}
-            height={600}
+            width={900}
+            height={900}
             unoptimized
             className="object-contain"
           />
