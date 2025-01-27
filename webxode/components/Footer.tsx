@@ -1,7 +1,13 @@
-import React from 'react';
-import Image from 'next/image';
-import { FaFacebook, FaYoutube, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
-import Logo from '@/public/webxodelogo.png';
+import React from "react";
+import Image from "next/image";
+import {
+  FaFacebook,
+  FaYoutube,
+  FaLinkedin,
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa";
+import Logo from "@/public/webxodelogo.png";
 
 const Footer = () => {
   return (
@@ -20,13 +26,13 @@ const Footer = () => {
       {/* Quick Links */}
       <div className="container flex flex-wrap justify-center gap-4 text-sm sm:text-base lg:text-lg font-montserrat cursor-pointer mb-8">
         {[
-          { label: 'Who are we', href: '/who-we-are' },
-          { label: 'What we do', href: '/what-we-do' },
-          { label: 'How we do', href: '/how-we-do' },
-          { label: 'Contact us', href: '/contact-us' },
-          { label: 'Blog', href: '/blog' },
-          { label: 'Careers', href: '/careers' },
-          { label: 'Terms and Conditions', href: '/terms-and-conditions' },
+          { label: "Who are we", href: "/who-we-are" },
+          { label: "What we do", href: "/what-we-do" },
+          { label: "How we do", href: "/how-we-do" },
+          { label: "Contact us", href: "/contact-us" },
+          { label: "Blog", href: "/blog" },
+          { label: "Careers", href: "/careers" },
+          { label: "Terms and Conditions", href: "/terms-and-conditions" },
         ].map((link, index) => (
           <a
             key={index}
@@ -45,7 +51,8 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row justify-between items-center px-6 sm:px-16 md:px-24 lg:px-32 xl:px-40 gap-6">
         {/* Copyright */}
         <p className="text-xs sm:text-sm md:text-base">
-          &copy; {new Date().getFullYear()} Webxode Technologies. All rights reserved.
+          &copy; {new Date().getFullYear()} Webxode Technologies. All rights
+          reserved.
         </p>
 
         {/* Social Media */}
