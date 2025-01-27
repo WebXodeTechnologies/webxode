@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaFacebook, FaYoutube, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaYoutube, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import Logo from '@/public/webxodelogo.png';
 
 const Footer = () => {
@@ -49,6 +49,9 @@ const Footer = () => {
           </a>
           <a href="https://www.instagram.com/webxode/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="w-5 h-5 hover:text-[#E4405F] transition-colors" />
+          </a>
+          <a href="https://github.com/ak220193" target="_blank" rel="noopener noreferrer" aria-label="Github">
+            <FaGithub className="w-5 h-5 hover:text-purple transition-colors" />
           </a>
           <a href="https://www.youtube.com/@Webxodetechnologies" target="_blank" rel="noopener noreferrer" aria-label="Youtube">
             <FaYoutube  className="w-5 h-5 hover:text-[#FF0000] transition-colors" />
