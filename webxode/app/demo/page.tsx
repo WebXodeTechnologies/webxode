@@ -1,7 +1,7 @@
 import DemoCTA from "@/components/DemoPage/DemoCTA";
 import React from "react";
 import HeroBanner from "@/components/DemoPage/Herobanner";
-import ContactForm from "@/components/DemoPage/ContactForm";
+import ContactForm from "@/components/DemoPage/ContactForm.jsx";
 
 const page = () => {
   return (
