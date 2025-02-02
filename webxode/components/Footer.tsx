@@ -26,7 +26,7 @@ const Footer = () => {
       {/* Quick Links */}
       <div className="container flex flex-wrap justify-center gap-4 text-sm sm:text-base lg:text-lg font-montserrat cursor-pointer mb-8">
         {[
-          { label: "Who are we", href: "/who-we-are" },
+          { label: "Who are we", href: "/who-are-we" },
           { label: "What we do", href: "/what-we-do" },
           { label: "How we do", href: "/how-we-do" },
           { label: "Contact us", href: "/contact-us" },
