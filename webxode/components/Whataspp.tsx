@@ -3,7 +3,7 @@ import Image from 'next/image';
 import WhatsappIcon from '@/public/whatsapp-svgrepo-com.svg'; // Make sure the path is correct
 
 const WhatsAppButton = () => {
-  const phoneNumber = "9150253488"; // Replace with your business phone number
+  const phoneNumber = "9345336311"; // Replace with your business phone number
   const message = "Hello! I have a query."; // Replace with your desired default message
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
