@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaGithub,
 } from "react-icons/fa";
-import Logo from "@/public/webxodelogo.png";
+import Logo from "@/public/WebxodeLogo.png";
 
 const Footer = () => {
   return (
