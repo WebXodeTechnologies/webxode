@@ -24,7 +24,7 @@ import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image from "next/image";
-import Logo from "@/public/webxodelogo.png"
+import Logo from "@/public/WebxodeLogo.png"
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
