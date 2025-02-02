@@ -9,6 +9,7 @@ import Testimonial from "@/components/Testimonial";
 import Faq from "@/components/Faq";
 import BookDemo from "@/components/BookDemo";
 import Macbookscroll from "@/components/Macbookscroll";
+import { ScrollVideo } from "@/components/ScrollVideo";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="w-full">
         <Hero />
         <AboutUs />
+        <ScrollVideo/>
         <RecentWorks />
         <Services />
         <OurApproach />
