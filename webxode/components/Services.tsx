@@ -11,8 +11,8 @@ import { FaMobileScreenButton } from "react-icons/fa6";
 import { MdHomeRepairService } from "react-icons/md";
 import { BsFillCartCheckFill } from "react-icons/bs";
 import { FaAppStoreIos } from "react-icons/fa";
-import { useRouter } from "next/navigation";
-import { GoArrowUpRight } from "react-icons/go";
+// import { useRouter } from "next/navigation";
+// import { GoArrowUpRight } from "react-icons/go";
 
 const Services = () => {
   const features = [
@@ -105,7 +105,7 @@ const Feature = ({
   description,
   icon,
   index,
-  link,
+  // link,
 }: {
   title: string;
   description: string;
@@ -113,7 +113,7 @@ const Feature = ({
   index: number;
   link: string;
 }) => {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <div
@@ -141,13 +141,13 @@ const Feature = ({
       <p className="text-sm text-neutral-600 dark:text-neutral-300  relative z-10 px-10">
         {description}
       </p>
-      <button
+      {/* <button
         className="mt-5 px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-medium rounded-full hover:from-purple-600 hover:to-blue-600 hover:scale-105 transform transition-all duration-300 flex items-center justify-center space-x-2"
         onClick={() => router.push(link)}
       >
         <span>Learn More</span>
         <GoArrowUpRight className="text-xl" />
-      </button>
+      </button> */}
     </div>
   );
 };
