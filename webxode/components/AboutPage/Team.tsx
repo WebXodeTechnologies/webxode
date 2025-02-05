@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Image1 from "@/public/about/EP3340.jpeg";
 import Image2 from "@/public/about/snajeev.png";
+import Image3 from "@/public/about/Yogesh.png";
 import { BackgroundGradient } from "../../components/ui/BackgroundGradient";
 import linkedinicon from "@/public/about/linkedin.svg";
 import githubicon from "@/public/about/github.svg";
@@ -68,6 +69,35 @@ const teamMembers = [
       },
     ],
   },
+  {
+    name: "Yogesh Ram S",
+    role: "Growth & Engagement Associate",
+    image: Image3,
+    description:
+      "Yogesh Ram is a dynamic Growth & Engagement Associate, passionate about driving brand success through strategic marketing and community engagement.",
+    socialLinks: [
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/snajeevr",
+        icon: linkedinicon,
+      },
+      {
+        name: "GitHub",
+        url: "https://github.com/snajeevr",
+        icon: githubicon,
+      },
+      {
+        name: "Website",
+        url: "https://snajeevr.com",
+        icon: websiteicon,
+      },
+      {
+        name: "Instagram",
+        url: "https://akashsm.dev",
+        icon: Instagram,
+      },
+    ],
+  },
 ];
 
 const Team = () => {
@@ -80,7 +110,7 @@ const Team = () => {
       </div>
 
       {/* Team Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2">
         {teamMembers.map((member, index) => (
           <div
             key={index}
