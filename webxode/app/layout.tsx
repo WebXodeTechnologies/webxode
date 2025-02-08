@@ -19,6 +19,11 @@ const MontserratAlt1 = localfont({
 
 export const metadata: Metadata = {
   title: "WebXode Technologies",
+  icons: [
+    { rel: "icon", url: "/webxodelogoc.png", sizes: "64x64" },
+    { rel: "apple-touch-icon", url: "/webxodelogoc.png", sizes: "180x180" },
+    { rel: "shortcut icon", url: "/webxodelogoc.png", sizes: "512x512" }, 
+  ],
   description:
     "WebXode Technologies is a leading software development company delivering innovative and reliable technology solutions to help businesses thrive in the digital era.",
 };
