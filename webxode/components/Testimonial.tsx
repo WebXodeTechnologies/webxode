@@ -17,7 +17,7 @@ const Testimonial = () => {
     <section className="py-20">
       {/* Section Header */}
       <div className="flex justify-center items-center mb-10">
-        <h1 className="text-3xl md:text-4xl lg:text-4xl text-center font-montserrat uppercase tracking-wide">
+        <h1 className="text-3xl md:text-4xl lg:text-4xl text-center font-montserrat uppercase tracking-wide text-white">
           Word of <span className="text-purple tracking-wide">Mouth</span>
         </h1>
       </div>
@@ -29,21 +29,21 @@ const Testimonial = () => {
       
 
       {/* Testimonials */}
-      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
+      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={testimonials}
           direction="left"
           speed="normal"
         />
       </div>
-      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
+      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
           speed="normal"
         />
       </div>
-      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
+      <div className="h-[15rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.01] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={testimonials}
           direction="left"

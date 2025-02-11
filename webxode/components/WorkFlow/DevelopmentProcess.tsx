@@ -11,7 +11,7 @@ const DevelopmentProcess = () => {
           <h1 className="text-left text-3xl font-montserrat text-purple px-2 py-2 mb-5">
             Our Development Process: Fast, Transparent, Reliable
           </h1>
-          <p className="text-xl font-montserrat px-2">
+          <p className="text-xl font-montserrat px-2 text-white">
             <ul className="list-disc pl-5 space-y-2">
               <li>
                 <strong>Requirement Analysis:</strong> We define project scope

@@ -19,7 +19,7 @@ export function CompanyTimeline() {
           <p className="text-white text-md md:text-lg font-normal mb-8">
             I have successfully designed, developed, and delivered numerous
             industrial projects using the MERN stack. With a focus on creating
-            scalable, high-performance applications, I’ve collaborated with
+            scalable, high-performance applications, I&apos;ve collaborated with
             businesses to craft custom web and mobile solutions that meet their
             unique needs. My experience spans across building robust backend
             architectures, crafting responsive front-end user interfaces, and
@@ -74,7 +74,7 @@ export function CompanyTimeline() {
             My focus was on delivering robust backend solutions while ensuring
             smooth, responsive front-end experiences. I collaborated closely
             with cross-functional teams to drive seamless integrations and
-            efficient workflows. Here's a glimpse of some of the notable
+            efficient workflows. Here&apos;s a glimpse of some of the notable
             projects I contributed to during this time.
           </p>
           <div className="grid grid-cols-2 gap-4">
