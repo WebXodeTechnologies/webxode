@@ -15,7 +15,7 @@ export function ScrollVideo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
+            <h1 className="text-4xl font-semibold text-white">
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
               </span>
             </h1>

@@ -121,7 +121,7 @@ const ContactForm = () => {
                 id="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border-b border-gray-300 rounded-lg"
+                className="w-full px-4 py-2 bg-red-500 rounded-lg"
               />
               {errors.name && (
                 <p className="text-red-500 text-sm">{errors.name}</p>
@@ -170,7 +170,7 @@ const ContactForm = () => {
 
             {/* Available Time and Date */}
             <div className="flex flex-col md:flex-row md:space-x-4">
-              <div className="flex-1">
+              <div className="flex-1 mt-4 md:mt-0">
                 <label
                   className="block text-white font-medium mb-2"
                   htmlFor="time"

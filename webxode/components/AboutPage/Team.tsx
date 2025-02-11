@@ -116,7 +116,7 @@ const Team = () => {
             key={index}
             className="flex flex-col justify-center items-center"
           >
-            <BackgroundGradient className="rounded-[22px] max-w-sm p-6 sm:p-10 bg-white dark:bg-zinc-900 shadow-lg hover:shadow-xl transition-shadow">
+            <BackgroundGradient className="rounded-[22px] max-w-sm p-6 sm:p-10 bg-zinc-900 shadow-lg hover:shadow-xl transition-shadow">
               <Image
                 src={member.image}
                 alt={member.name}
