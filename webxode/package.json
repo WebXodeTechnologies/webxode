@@ -9,16 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.9.1",
-    "@radix-ui/react-label": "^2.1.1",
-    "@tabler/icons-react": "^3.29.0",
-    "@tsparticles/engine": "^3.7.1",
+    "@tabler/icons-react": "^3.31.0",
     "@tsparticles/react": "^3.0.0",
-    "@tsparticles/slim": "^3.7.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "cobe": "^0.6.3",
-    "dotted-map": "^2.2.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.15.0",
     "gsap": "^3.12.5",

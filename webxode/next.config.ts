@@ -20,19 +20,6 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // Ignores ESLint errors during builds
   },
-  async headers() {
-    return [
-      {
-        source: "/sitemap.xml",
-        headers: [
-          {
-            key: "Content-Type",
-            value: "application/xml",
-          },
-        ],
-      },
-    ];
-  },
 };
 
 export default nextConfig;
