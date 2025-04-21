@@ -17,7 +17,7 @@ export default function Home() {
     <main className="relative space-y-20 flex justify-center flex-col overflow-clip mx-auto sm:px-10 px-5">
       <div className="w-full">
         <Hero />
-        <AboutUs />
+        <AboutUs /> 
         <ScrollVideo/>
         <RecentWorks />
         <Services />
@@ -27,7 +27,7 @@ export default function Home() {
         <Testimonial />
         <Faq />
         <BookDemo />
-        <Macbookscroll />
+        <Macbookscroll /> 
       </div>
     </main>
   );

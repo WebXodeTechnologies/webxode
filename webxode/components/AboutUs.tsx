@@ -115,7 +115,7 @@ const AboutUs = () => {
     <section
       ref={containerRef}
       id="about"
-      className="w-screen h-screen mt-[5vw] bg-black"
+      className="w-screen h-screen"
     >
       <div className="w-full h-full overflow-hidden relative">
         {/* First Scroll Section */}
@@ -164,7 +164,7 @@ const AboutUs = () => {
                 At
                 <span className="text-purple font-montserrat"> WEBXODE </span>
                 we craft seamless, impactful solutions that empower businesses
-                to achieve new heights. Let us transform your vision into
+                Let us transform your vision into
                 reality. 🚀
               </p>
             </div>
