@@ -18,7 +18,7 @@ const MontserratAlt1 = localfont({
 });
 
 export const metadata: Metadata = {
-  title: "WebXode Technologies",
+  title: "Webxode Technologies",
   description:
     "WebXode Technologies is a leading software development company delivering innovative and reliable technology solutions to help businesses thrive in the digital era.",
   keywords: [
