@@ -36,7 +36,7 @@ const ProposalCTA = () => {
             WebXode
           </p>
           <div className="mt-12 flex justify-center">
-            <a href="/get-proposal" className="relative inline-block">
+            <a href="/contact-us" className="relative inline-block">
               <button className="px-10 py-4 text-xl font-semibold text-white bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600 rounded-lg shadow-2xl transform transition-all duration-300 ease-in-out hover:bg-gradient-to-l hover:from-pink-600 hover:to-indigo-500 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300 flex items-center">
                 Get Started
                 <FaLocationArrow className="ml-3" />{" "}

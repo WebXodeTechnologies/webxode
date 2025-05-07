@@ -2,10 +2,11 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data/index";
 import { PinContainer } from "./ui/PinContainer";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20 max-w-7xl">
+    <div className="py-20">
       <h1 className="heading uppercase font-montserrat tracking-wide">
         Our <span className="text-purple">recent projects</span>
       </h1>
