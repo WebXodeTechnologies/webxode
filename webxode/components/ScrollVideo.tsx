@@ -11,7 +11,7 @@ export function ScrollVideo() {
   const scale = useMotionValue(1);
 
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col">
       <ContainerScroll
         titleComponent={
           <>

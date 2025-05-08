@@ -10,11 +10,11 @@ const RecentProjects = () => {
       <h1 className="heading uppercase font-montserrat tracking-wide">
         Our <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-[10%]">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-20 mt-[10%]">
         {projects.map((item) => (
           <div
             key={item.id}
-            className="lg:min-h-[32.5rem] h-[25rem] flex flex-col items-center justify-between sm:w-96 w-[80vw] space-y-6"
+            className="lg:min-h-[32.5rem] h-[25rem] flex flex-col items-center justify-between sm:w-96 w-[80vw] space-y-10"
           >
             <PinContainer title="" href="">
               {/* Image Container */}
@@ -23,11 +23,12 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img
+                <Image
                   src={item.img}
                   alt="cover"
+                  width={400}
+                  height={400}
                   className="object-contain rounded-lg"
                 />
               </div>
