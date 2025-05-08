@@ -1,16 +1,18 @@
-import { Hero } from "@/components/Hero";
-import Services from "@/components/Services";
-import OurApproach from "@/components/OurApproach";
-import AboutUs from "@/components/AboutUs";
-import RecentWorks from "@/components/RecentWorks";
-import RecentProjects from "@/components/RecentProjects";
-import TechStack from "@/components/TechStack";
-import Testimonial from "@/components/Testimonial";
-import Faq from "@/components/Faq";
-import BookDemo from "@/components/BookDemo";
-import Macbookscroll from "@/components/Macbookscroll";
-import { ScrollVideo } from "@/components/ScrollVideo";
+"use client"
+import dynamic from 'next/dynamic';
 
+const Hero = dynamic(() => import('@/components/Hero').then(mod => mod.Hero), { ssr: false });
+const Services = dynamic(()=> import("@/components/Services"),{ssr:false});
+const OurApproach = dynamic(()=>import('@/components/OurApproach'),{ssr:false});
+const AboutUs = dynamic(()=>import ("@/components/AboutUs"), {ssr:false});
+const RecentWorks = dynamic(()=> import ("@/components/RecentProjects"), {ssr:false});
+const RecentProjects = dynamic(()=>import("@/components/RecentProjects"),{ssr:false});
+const TechStack  = dynamic(()=> import("@/components/TechStack"),{ssr:false});
+const Testimonial = dynamic(()=> import("@/components/Testimonial"), {ssr:false});
+const Faq = dynamic(() => import ("@/components/Faq"),{ssr:false});
+const BookDemo = dynamic(()=> import ("@/components/BookDemo"), {ssr:false});
+const Macbookscroll = dynamic(()=>import("@/components/Macbookscroll"),{ssr:false});
+const ScrollVideo = dynamic(()=> import("@/components/ScrollVideo").then(mod=>mod.ScrollVideo), {ssr:false});
 
 export default function Home() {
   return (

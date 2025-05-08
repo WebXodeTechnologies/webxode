@@ -77,25 +77,6 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${MontserratAlt1.variable}`}
     >
-      <head>
-        {/* ✅ Optional: Add structured data (schema.org) */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "WebXode Technologies",
-              url: "https://webxode.vercel.app",
-              logo: "https://webxode.vercel.app/webxodelogoc.png",
-              sameAs: [
-                "https://www.instagram.com/yourpage",
-                "https://www.linkedin.com/company/yourpage"
-              ]
-            }),
-          }}
-        />
-      </head>
       <body>
         <ThemeProvider
           attribute="class"
