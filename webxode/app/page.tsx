@@ -5,7 +5,6 @@ const Hero = dynamic(() => import('@/components/Hero').then(mod => mod.Hero), { 
 const Services = dynamic(()=> import("@/components/Services"),{ssr:false});
 const OurApproach = dynamic(()=>import('@/components/OurApproach'),{ssr:false});
 const AboutUs = dynamic(()=>import ("@/components/AboutUs"), {ssr:false});
-const RecentWorks = dynamic(()=> import ("@/components/RecentProjects"), {ssr:false});
 const RecentProjects = dynamic(()=>import("@/components/RecentProjects"),{ssr:false});
 const TechStack  = dynamic(()=> import("@/components/TechStack"),{ssr:false});
 const Testimonial = dynamic(()=> import("@/components/Testimonial"), {ssr:false});
@@ -21,7 +20,6 @@ export default function Home() {
         <Hero />
         <AboutUs /> 
         <ScrollVideo/>
-        <RecentWorks />
         <Services />
         <OurApproach />
         <RecentProjects />
