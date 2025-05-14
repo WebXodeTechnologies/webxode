@@ -14,49 +14,6 @@ const Macbookscroll = dynamic(()=>import("@/components/Macbookscroll"),{ssr:fals
 const ScrollVideo = dynamic(()=> import("@/components/ScrollVideo").then(mod=>mod.ScrollVideo), {ssr:false});
 
 
-export const metadata = {
-  title: "WebXode | Scalable Digital Solutions for Growing Businesses",
-  description:
-    "WebXode Technologies builds modern websites and mobile apps using MERN Stack and Next.js. Explore our services, projects, and get a custom solution for your business.",
-  keywords: [
-    "WebXode Technologies",
-    "MERN Stack",
-    "Next.js Development",
-    "Mobile App Development",
-    "Web Development Company",
-    "React Development",
-    "Custom Software Solutions",
-    "IT Services Namakkal",
-    "Tech Company India"
-  ],
-  authors: [{ name: "WebXode Technologies", url: "https://webxode.vercel.app" }],
-  creator: "WebXode Technologies",
-  publisher: "WebXode Technologies",
-  robots: "index, follow",
-  openGraph: {
-    type: "website",
-    url: "https://webxode.vercel.app",
-    title: "WebXode Technologies | MERN Stack, Web & Mobile App Development",
-    description:
-      "Custom web and mobile app solutions built with React, Next.js, and MERN Stack. Discover our portfolio and development approach.",
-    images: [
-      {
-        url: "/webxodelogoc.png",
-        width: 1200,
-        height: 630,
-        alt: "WebXode Technologies",
-      },
-    ],
-    siteName: "WebXode Technologies",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "WebXode | Expert Web & Mobile Development with MERN Stack",
-    description:
-      "From idea to launch — WebXode builds scalable, modern web and mobile apps tailored for your business.",
-    images: ["/webxodelogoc.png"],
-  },
-};
 
 export default function Home() {
   return (
