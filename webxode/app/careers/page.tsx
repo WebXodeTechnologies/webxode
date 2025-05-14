@@ -4,7 +4,7 @@ import ComingSoon from '@/components/CommingSoon';
 import React from 'react';
 
 export const metadata = {
-  title: "Careers at Webxode | Join Our Innovative Tech Team",
+  title: "Careers at Webxode | Join Our Innovative Tech Team and Improve Your Skills with trained professionals",
   description:
     "Explore exciting career opportunities at Webxode. We're hiring developers, designers, and thinkers who are passionate about building modern web experiences.",
 };

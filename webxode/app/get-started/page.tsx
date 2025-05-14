@@ -3,9 +3,9 @@ import React from "react";
 import HeroBanner from "@/components/DemoPage/Herobanner";
 import ContactForm from "@/components/DemoPage/ContactForm.jsx";
 
-
 export const metadata = {
-  title: "Get Started with WEBXODE | Web Development & Digital Solutions",
+  title:
+    "Get Started with WEBXODE | Web Development, Custom App Creation, Digital Marketing , SEO , and UI/UX Services",
   description:
     "Kickstart your digital journey with WEBXODE. Let's build your next web or mobile project with cutting-edge technology.",
   keywords: [
@@ -44,9 +44,9 @@ const page = () => {
     <main className="min-h-screen">
       <section className="py-20">
         <div className="container mx-auto px-2 sm:px-2 md:px-4">
-            <HeroBanner/>
-            <DemoCTA/>
-            <ContactForm/>
+          <HeroBanner />
+          <DemoCTA />
+          <ContactForm />
         </div>
       </section>
 
@@ -80,7 +80,7 @@ const page = () => {
         }}
       />
     </main>
-  )
-}
+  );
+};
 
-export default page
+export default page;

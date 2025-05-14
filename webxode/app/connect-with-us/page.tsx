@@ -3,7 +3,7 @@
 import React from 'react';
 
 export const metadata = {
-  title: "Connect With Us | Webxode - Get in Touch Today",
+  title: "Connect With Us | Book Your Appointment and Build your Business Scalable and Efficient",
   description:
     "Have questions or want to collaborate? Reach out to Webxode's team for project inquiries, support, or partnership opportunities. We're here to help.",
   keywords: [

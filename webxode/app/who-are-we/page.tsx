@@ -9,7 +9,7 @@ import BookDemo from "@/components/BookDemo";
 
 
 export const metadata = {
-  title: "Who Are We - WEBXODE",
+  title: "Who Are We - WEBXODE is Startup Service Company Providing End to End SErvices to the Tech People and Startups To improve their Performance and Efficiency to generate a solid Revenue for Enhanced Future",
   description: "Learn about WEBXODE's mission, values, and the team shaping tomorrow’s digital experiences.",
   keywords: ["WEBXODE", "Who Are We", "Our Team", "Digital Agency", "Web Design", "Web Development"],
   openGraph: {

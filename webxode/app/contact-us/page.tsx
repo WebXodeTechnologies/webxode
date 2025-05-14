@@ -5,7 +5,7 @@ import ContactForm from "@/components/DemoPage/ContactForm.jsx";
 
 
 export const metadata = {
-  title: "Contact Us | WEBXODE",
+  title: "Contact Us | Book Your Appointment Today for exciting benefits",
   description: "Get in touch with WEBXODE for custom web development, digital solutions, and consultations. Let's build your next big idea.",
   keywords: [
     "WEBXODE Contact",
