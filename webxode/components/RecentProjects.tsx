@@ -10,7 +10,7 @@ const RecentProjects = () => {
       <h1 className="heading uppercase font-montserrat tracking-wide">
         Our <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-20 mt-[10%]">
+      <div className="flex flex-wrap p-4 gap-20 mt-[10%]">
         {projects.map((item) => (
           <div
             key={item.id}
@@ -22,8 +22,7 @@ const RecentProjects = () => {
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
-                >
-                </div>
+                ></div>
                 <Image
                   src={item.img}
                   alt="cover"

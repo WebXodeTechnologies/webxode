@@ -3,7 +3,6 @@ import React from "react";
 import { motion, useMotionValue } from "framer-motion";
 import { ContainerScroll } from "./ui/ContainerScroll";
 
-
 export function ScrollVideo() {
   // Motion values for animations
   const translate = useMotionValue(0);
@@ -11,13 +10,12 @@ export function ScrollVideo() {
   const scale = useMotionValue(1);
 
   return (
-    <div className="flex flex-col">
+    <div className="relative min-h-screen flex items-center justify-center py-10">
       <ContainerScroll
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-white">
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-              </span>
+              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none"></span>
             </h1>
           </>
         }
@@ -25,8 +23,8 @@ export function ScrollVideo() {
         {/* Motion Video Card */}
         <motion.div style={{ translate, rotate, scale }}>
           <video
-            src="/CompanyIntroduction.mp4" 
-            className="mx-auto rounded-2xl object-cover h-full w-full"
+            src="/CompanyIntroduction.mp4"
+            className="mx-auto rounded-2xl object-contain h-full w-full"
             autoPlay
             loop
             muted
