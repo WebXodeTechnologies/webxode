@@ -122,7 +122,7 @@ You can replace it with any other font from [Google Fonts](https://fonts.google.
 ## 🙌 Credits
 
 Built with ❤️ by **[@Akash S M](https://github.com/yourusername)** – Founder of **Webxode**  
-For collaborations: 📧 **shasalemCoffee@gmail.com**
+For collaborations: 📧 **contact.webxodetechnolgies@gmail.com**
 
 ---
 
