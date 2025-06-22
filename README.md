@@ -131,5 +131,3 @@ For collaborations: 📧 **contact.webxodetechnolgies@gmail.com**
 This project is licensed under the **MIT License**.
 
 ---
-
-> Want to add GitHub shields, issue templates, contribution guidelines, or multilingual support (Tamil/English)? Let me know and I’ll help you structure those too!
