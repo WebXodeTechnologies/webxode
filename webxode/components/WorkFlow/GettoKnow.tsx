@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "@/public/how-we-do-video/undraw_stand-out_alq4.svg"
+import image1 from "@/public/how-we-do-video/undraw_stand-out_alq4.svg";
 import Image from "next/image";
 
 const GettoKnow = () => {
@@ -36,7 +36,9 @@ const GettoKnow = () => {
           <div className="p-8 rounded-lg">
             <h2 className="text-3xl md:text-4xl text-purple mb-4 text-center font-montserrat">
               Story of
-              <span className="uppercase text-purple font-montserrat tracking-wider ml-2">Webxode</span>
+              <span className="uppercase text-purple font-montserrat tracking-wider ml-2">
+                Webxode
+              </span>
             </h2>
             <p className="text-white text-lg leading-relaxed">
               Webxode Technologies, founded by Akash S M, is a dynamic startup
@@ -46,11 +48,15 @@ const GettoKnow = () => {
               business, enhance scalability, and drive revenue growth.
             </p>
             <p className="text-white text-lg leading-relaxed mt-4">
-              At Webxode, we emphasize transparency and collaboration at every step. We work with you to create a scalable, successful business model aligned with your goals. From initial planning to final execution, our approach ensures a smooth, rewarding, and impactful journey for our clients.
+              At Webxode, we emphasize transparency and collaboration at every
+              step. We work with you to create a scalable, successful business
+              model aligned with your goals. From initial planning to final
+              execution, our approach ensures a smooth, rewarding, and impactful
+              journey for our clients.
             </p>
           </div>
           <div className="flex justify-center items-center bg-gray-200 rounded-lg p-6 aspect-video">
-           <Image src={image1} alt="company" width={400} height={300} />
+            <Image src={image1} alt="company" width={400} height={300} />
           </div>
         </div>
       </div>

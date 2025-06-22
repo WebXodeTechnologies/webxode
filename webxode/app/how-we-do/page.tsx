@@ -1,12 +1,11 @@
-
-import ProposalCTA from '@/components/ServicesPage/ProposalCTA'
-import Benefits from '@/components/WorkFlow/Benefits'
-import GettoKnow from '@/components/WorkFlow/GettoKnow'
-import HeroSection from '@/components/WorkFlow/HeroSection'
-import Payment from '@/components/WorkFlow/Payment'
-import Promise from '@/components/WorkFlow/Promise'
-import DevelopmentProcess from "@/components/WorkFlow/DevelopmentProcess"
-import React from 'react'
+import ProposalCTA from "@/components/ServicesPage/ProposalCTA";
+import Benefits from "@/components/WorkFlow/Benefits";
+import GettoKnow from "@/components/WorkFlow/GettoKnow";
+import HeroSection from "@/components/WorkFlow/HeroSection";
+import Payment from "@/components/WorkFlow/Payment";
+import Promise from "@/components/WorkFlow/Promise";
+import DevelopmentProcess from "@/components/WorkFlow/DevelopmentProcess";
+import React from "react";
 export const metadata = {
   title: "How We Do It - WEBXODE Workflow & Execution",
   description:
@@ -81,7 +80,7 @@ const page = () => {
         }}
       />
     </main>
-  )
-}
+  );
+};
 
-export default page
+export default page;

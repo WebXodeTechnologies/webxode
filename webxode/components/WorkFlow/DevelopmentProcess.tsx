@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Workflow from "@/public/workflow/workflowimage3.svg";
-import process from "@/public/how-we-do-video/download.png"
+import process from "@/public/how-we-do-video/download.png";
 
 const DevelopmentProcess = () => {
   return (
@@ -45,9 +45,8 @@ const DevelopmentProcess = () => {
             Your browser does not support the video tag.
           </video> */}
           <div className="bg-gray-50 rounded-lg">
-<Image src={process}  alt="workflow" width={400} height={250}/>
+            <Image src={process} alt="workflow" width={400} height={250} />
           </div>
-          
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
-import PaymentImage from "@/public/how-we-do-video/payment.svg"
+import PaymentImage from "@/public/how-we-do-video/payment.svg";
 import Image from "next/image";
 
 const Payment = () => {
@@ -24,8 +24,8 @@ const Payment = () => {
             </li>
             <li>
               <strong className="text-purple">Frontend Completion:</strong>
-              <span className="text-green-500 ml-2">20%</span>Demo Completion
-              of Frontend.
+              <span className="text-green-500 ml-2">20%</span>Demo Completion of
+              Frontend.
             </li>
             <li>
               <strong className="text-purple">Backend & Deployment:</strong>
@@ -54,7 +54,8 @@ const Payment = () => {
           {/* <video controls className="w-full h-auto mt-5">
             <source src="/path-to-your-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video> */}/
+          </video> */}
+          /
           <Image src={PaymentImage} alt="Payment" width={400} height={300} />
         </div>
       </div>
