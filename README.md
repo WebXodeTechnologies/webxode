@@ -1,4 +1,4 @@
-# 🚀 Webxode – Next.js Full Stack Digital Agency Website
+# 🚀 Webxode – Next.js Full Stack Website
 
 Welcome to the official codebase of **Webxode** – a high-performance, full-stack web application built using **Next.js**, **Tailwind CSS**, and scalable architecture. Whether you're a business owner, developer, or designer, this codebase is crafted to deliver blazing-fast websites with modern design and SEO optimization.
 
