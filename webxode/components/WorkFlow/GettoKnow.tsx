@@ -1,4 +1,6 @@
 import React from "react";
+import image1 from "@/public/how-we-do-video/undraw_stand-out_alq4.svg"
+import Image from "next/image";
 
 const GettoKnow = () => {
   return (
@@ -48,9 +50,7 @@ const GettoKnow = () => {
             </p>
           </div>
           <div className="flex justify-center items-center bg-gray-200 rounded-lg p-6 aspect-video">
-            <p className="text-gray-600 text-lg italic">
-              Company video or related media can go here.
-            </p>
+           <Image src={image1} alt="company" width={400} height={300} />
           </div>
         </div>
       </div>
