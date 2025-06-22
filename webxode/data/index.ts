@@ -4,14 +4,13 @@ export const navItems = [
   { name: "How we do?", link: "/how-we-do" },
 ];
 
-
 export const projects = [
   {
     id: 1,
     title: "Weartrenz - Apparel E-commerce",
     des: "Discover fashion trends with Weartrenz, your go-to online store for stylish apparel, offering seamless shopping and trendy collections.",
     img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://apparel-e-commerce.vercel.app/",
     caseStudy: "",
   },
@@ -20,7 +19,7 @@ export const projects = [
     title: "Mirror Tatoos",
     des: "Transform your body art experience at Mirror Tattoos, where creativity meets precision in a state-of-the-art tattoo studio.",
     img: "/mirror.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://mirror-final.vercel.app/",
     caseStudy: "",
   },
@@ -29,7 +28,7 @@ export const projects = [
     title: "Qkart Ecommerce",
     des: "Qkart offers a seamless shopping experience for all your electronics needs, featuring cutting-edge technology and fast delivery.",
     img: "/Qkart.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://akash-qkart-frontend-main.vercel.app/",
     caseStudy: "",
   },
@@ -38,13 +37,11 @@ export const projects = [
     title: "Spice-Bistro",
     des: "Spice Bistro has redefined how our customers experience Italian cuisine from the comfort of their homes",
     img: "/sb1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://spice-bistro-ak-react-project.netlify.app/",
     caseStudy: "",
   },
 ];
-
-
 
 export const TechstackLogos = [
   { src: "/techstack/html5-with-wordmark-color-seeklogo.svg", alt: "HTML5" },
@@ -59,9 +56,15 @@ export const TechstackLogos = [
   { src: "/techstack/mongodb-seeklogo-3.svg", alt: "MongoDB" },
   { src: "/techstack/firebase-seeklogo.svg", alt: "Firebase" },
   { src: "/techstack/three-js-seeklogo.svg", alt: "Three.js" },
-  { src: "/techstack/greensock-gsap-icon-seeklogo.svg", alt: "GreenSock (GSAP)" },
+  {
+    src: "/techstack/greensock-gsap-icon-seeklogo.svg",
+    alt: "GreenSock (GSAP)",
+  },
   { src: "/techstack/adobe-photoshop-cc-seeklogo.svg", alt: "Adobe Photoshop" },
-  { src: "/techstack/adobe-illustrator-cc-seeklogo.svg", alt: "Adobe Illustrator" },
+  {
+    src: "/techstack/adobe-illustrator-cc-seeklogo.svg",
+    alt: "Adobe Illustrator",
+  },
   { src: "/techstack/cloudinary-seeklogo.svg", alt: "Cloudinary" },
   { src: "/techstack/figma-seeklogo.svg", alt: "Figma" },
 ];
@@ -176,12 +179,14 @@ export const FAQ = [
       "Our digital marketing services help businesses grow their online presence. We provide targeted SEO, SEM, content marketing, and social media strategies designed to drive traffic and increase conversions, ensuring your brand reaches the right audience.",
   },
   {
-    question: "What makes Webxode Solutions different from other web design companies?",
+    question:
+      "What makes Webxode Solutions different from other web design companies?",
     answer:
       "Webxode Solutions takes a client-first approach, offering custom web design services tailored to your brand and audience. Our team focuses on creating visually appealing, mobile-friendly, and high-performing websites that align with your business goals.",
   },
   {
-    question: "What types of businesses can benefit from Webxode Solutions' services?",
+    question:
+      "What types of businesses can benefit from Webxode Solutions' services?",
     answer:
       "Whether you're a startup or an established business, Webxode Solutions caters to a wide range of industries. From e-commerce to corporate solutions, our business consulting and UI/UX design services are perfect for businesses seeking growth through digital transformation.",
   },
@@ -206,12 +211,12 @@ export const FAQ = [
       "We offer SEO optimization as part of our digital marketing services to enhance your website’s visibility on search engines. Through on-page SEO, keyword research, and high-quality content creation, we help your website rank higher and attract more organic traffic.",
   },
   {
-    question: "How long does it take to develop a custom website or app with Webxode Solutions?",
+    question:
+      "How long does it take to develop a custom website or app with Webxode Solutions?",
     answer:
       "The timeline for your custom website or app development depends on the complexity of the project. Generally, we provide a detailed timeline during the initial consultation and ensure that we deliver within the agreed-upon timeframe, keeping you updated throughout the process.",
   },
 ];
-
 
 export const people = [
   {
@@ -258,67 +263,76 @@ export const people = [
   },
 ];
 
-
 export const Values = [
   {
     id: 1,
     icon: "/about/customer.gif",
     title: "Customer",
-    description: "At the core of our customer-centric approach is a dedication to understanding client needs, delivering tailored solutions, and ensuring long-term success through impactful results."
+    description:
+      "At the core of our customer-centric approach is a dedication to understanding client needs, delivering tailored solutions, and ensuring long-term success through impactful results.",
   },
   {
     id: 2,
     icon: "/about/innovation.gif",
     title: "Innovation",
-    description: "Our focus on innovation empowers us to craft creative, future-ready solutions that help businesses stay ahead in a competitive digital landscape."
+    description:
+      "Our focus on innovation empowers us to craft creative, future-ready solutions that help businesses stay ahead in a competitive digital landscape.",
   },
   {
     id: 3,
     icon: "/about/teamwork.gif",
     title: "Integrity",
-    description: "We build trust through honest communication and ethical practices, forming strong partnerships rooted in reliability and accountability."
+    description:
+      "We build trust through honest communication and ethical practices, forming strong partnerships rooted in reliability and accountability.",
   },
   {
     id: 4,
     icon: "/about/collab.gif",
     title: "Collaboration",
-    description: "Collaboration is the foundation of our success. By uniting diverse expertise and fostering teamwork, we create solutions that deliver maximum value."
+    description:
+      "Collaboration is the foundation of our success. By uniting diverse expertise and fostering teamwork, we create solutions that deliver maximum value.",
   },
   {
     id: 5,
     icon: "/about/growth.gif",
     title: "Growth",
-    description: "We empower continuous learning and development, helping our team and clients adapt to the evolving digital landscape and achieve sustainable growth."
+    description:
+      "We empower continuous learning and development, helping our team and clients adapt to the evolving digital landscape and achieve sustainable growth.",
   },
   {
     id: 6,
     icon: "/about/high-quality.gif",
     title: "Quality",
-    description: "We ensure premium results by maintaining meticulous attention to detail and delivering reliable solutions that exceed industry standards."
+    description:
+      "We ensure premium results by maintaining meticulous attention to detail and delivering reliable solutions that exceed industry standards.",
   },
   {
     id: 7,
     icon: "/about/empathy.gif",
     title: "Empathy",
-    description: "Understanding the needs and aspirations of our clients, employees, and partners drives every solution we create and every interaction we have."
+    description:
+      "Understanding the needs and aspirations of our clients, employees, and partners drives every solution we create and every interaction we have.",
   },
   {
     id: 8,
     icon: "/about/agility.gif",
     title: "Agility",
-    description: "Our adaptability allows us to respond swiftly to changes, crafting solutions that address emerging challenges and opportunities with precision."
+    description:
+      "Our adaptability allows us to respond swiftly to changes, crafting solutions that address emerging challenges and opportunities with precision.",
   },
   {
     id: 9,
     icon: "/about/sustainablity.gif",
     title: "Sustainability",
-    description: "We integrate sustainable practices into our workflows, ensuring our operations positively impact the environment and society."
+    description:
+      "We integrate sustainable practices into our workflows, ensuring our operations positively impact the environment and society.",
   },
   {
     id: 10,
     icon: "/about/results1.gif",
     title: "Results",
-    description: "Our results-driven approach focuses on measurable outcomes, delivering solutions that drive success and align with client goals."
+    description:
+      "Our results-driven approach focuses on measurable outcomes, delivering solutions that drive success and align with client goals.",
   },
 ];
 
@@ -327,26 +341,30 @@ export const process = [
     id: 1,
     icon: "/company/3d mantra.gif", // Replace with your actual icon path
     title: "3D Design, Development, and Delivery",
-    description: "Our 3D Design, Development, and Delivery process ensures your ideas are transformed into high-quality, innovative solutions, executed with precision and delivered on time."
+    description:
+      "Our 3D Design, Development, and Delivery process ensures your ideas are transformed into high-quality, innovative solutions, executed with precision and delivered on time.",
   },
   {
     id: 2,
     icon: "/company/professional.gif", // Replace with your actual icon path
     title: "Professional Web Development",
-    description: "We specialize in professional web development, offering exceptional quality, seamless integration, and user-centric solutions to ensure your business stands out."
+    description:
+      "We specialize in professional web development, offering exceptional quality, seamless integration, and user-centric solutions to ensure your business stands out.",
   },
   {
     id: 3,
     icon: "/company/creative.gif", // Replace with your actual icon path
     title: "Creative Digital Solutions",
-    description: "Our team excels at crafting creative digital solutions, delivering innovative web designs, custom applications, and branding strategies tailored to your business needs."
+    description:
+      "Our team excels at crafting creative digital solutions, delivering innovative web designs, custom applications, and branding strategies tailored to your business needs.",
   },
   {
     id: 4,
     icon: "/company/delivery.gif", // Replace with your actual icon path
     title: "Timely Project Delivery",
-    description: "On-time delivery is at the heart of our service. We prioritize meeting deadlines while maintaining the highest standards of quality, ensuring your project is delivered without delays."
-  }
+    description:
+      "On-time delivery is at the heart of our service. We prioritize meeting deadlines while maintaining the highest standards of quality, ensuring your project is delivered without delays.",
+  },
 ];
 
 export const serviceChoose = [
@@ -384,7 +402,7 @@ export const datapoints = [
   {
     id: 1,
     icon: "/services/path.gif",
-    title: "Validate your vision and provide a clear roadmap"
+    title: "Validate your vision and provide a clear roadmap",
   },
   {
     id: 2,
@@ -410,8 +428,8 @@ export const datapoints = [
     id: 6,
     icon: "/services/support.gif",
     title: "World-class support during and after project completion",
-  }
-]
+  },
+];
 
 export const Devprocess = [
   {
@@ -491,7 +509,10 @@ export const techtools = [
     id: 3,
     title: "Design Tools",
     tools: [
-      { name: "Adobe Suite", icon: "/techstack/adobe-illustrator-cc-seeklogo.svg" },
+      {
+        name: "Adobe Suite",
+        icon: "/techstack/adobe-illustrator-cc-seeklogo.svg",
+      },
       { name: "Figma", icon: "/techstack/figma-seeklogo.svg" },
     ],
   },
@@ -549,37 +570,263 @@ export const promise = [
   {
     id: 1,
     icon: "/services/quality.gif",
-    title: "Premium Quality for Every Product"
+    title: "Premium Quality for Every Product",
   },
   {
     id: 2,
     icon: "/workflow/success.gif",
-    title: "Enjoy a Smooth Journey"
+    title: "Enjoy a Smooth Journey",
   },
   {
     id: 3,
     icon: "/workflow/analytics.gif",
-    title: "Exceeding Your Expectations"
-  }
-]
+    title: "Exceeding Your Expectations",
+  },
+];
 
 export const Assistance = [
   {
     id: 1,
     icon: "/workflow/wrong-route.gif",
     title: "Initiate",
-    description: "Not sure where to begin? We provide expert guidance to help you kickstart your business journey with a clear roadmap tailored to your unique goals."
+    description:
+      "Not sure where to begin? We provide expert guidance to help you kickstart your business journey with a clear roadmap tailored to your unique goals.",
   },
   {
     id: 2,
     icon: "/workflow/career-pathway.gif",
     title: "Expand",
-    description: "Ready to grow but unsure how? We help you build a strategic plan to scale your business, enhance partnerships, and increase revenue efficiently."
+    description:
+      "Ready to grow but unsure how? We help you build a strategic plan to scale your business, enhance partnerships, and increase revenue efficiently.",
   },
   {
     id: 3,
     icon: "/workflow/management.gif",
     title: "Sustain",
-    description: "Looking to streamline your operations? We assist in creating standardized workflows and strategies that strengthen your business foundation and boost productivity."
-  }
-]
+    description:
+      "Looking to streamline your operations? We assist in creating standardized workflows and strategies that strengthen your business foundation and boost productivity.",
+  },
+];
+
+export const Blogs = [
+  {
+    category: "Tech",
+    blogs: [
+      {
+        id: 1,
+        title: "Top 10 Tech Trends to Watch in 2025",
+        slug: "tech-trends-2025",
+        excerpt:
+          "Explore what's shaping the future of technology — from Web3 to edge computing.",
+        coverImage: "/blog-images/img1.jpg",
+        date: "2025-06-01",
+        likes: 0,
+        comments: [],
+        tags: ["Tech", "Trends"],
+      },
+      {
+        id: 2,
+        title: "How 5G Will Change App Development",
+        slug: "impact-of-5g",
+        excerpt:
+          "Discover how ultra-fast connectivity is impacting the mobile and web dev ecosystem.",
+        coverImage: "/blog-images/5g.png",
+        date: "2025-06-02",
+        likes: 0,
+        comments: [],
+        tags: ["Tech", "Networking"],
+      },
+    ],
+  },
+  {
+    category: "Code",
+    blogs: [
+      {
+        id: 4,
+        title: "Top 5 MERN Stack Project Ideas for 2025",
+        slug: "mern-stack-project-ideas",
+        excerpt:
+          "Real-world MERN projects you can build to impress clients and improve your portfolio.",
+        coverImage: "/blog-images/mernstack.webp",
+        date: "2025-06-20",
+        likes: 0,
+        comments: [],
+        tags: ["Code", "MERN", "Projects"],
+      },
+      {
+        id: 6,
+        title: "Clean Code Practices for JavaScript Developers",
+        slug: "clean-code-js",
+        excerpt:
+          "Learn how to write maintainable, scalable code in JavaScript with real examples.",
+        coverImage: "/blog-images/code.jpg",
+        date: "2025-06-05",
+        likes: 0,
+        comments: [],
+        tags: ["Code", "JavaScript"],
+      },
+    ],
+  },
+  {
+    category: "Business",
+    blogs: [
+      {
+        id: 7,
+        title: "Startup Strategies You Can’t Ignore in 2025",
+        slug: "startup-strategies",
+        excerpt:
+          "From lean MVPs to investor readiness — key tactics for startup survival.",
+        coverImage: "/blog-images/startup.jpg",
+        date: "2025-06-06",
+        likes: 0,
+        comments: [],
+        tags: ["Business", "Startups"],
+      },
+      {
+        id: 10,
+        title: "How to Build a Scalable Digital Agency",
+        slug: "scalable-digital-agency",
+        excerpt:
+          "Lessons from growing Webxode into a multi-service digital brand.",
+        coverImage: "/blog-images/startup-1.jpg",
+        date: "2025-06-09",
+        likes: 0,
+        comments: [],
+        tags: ["Business", "Agency"],
+      },
+    ],
+  },
+  {
+    category: "AI",
+    blogs: [
+      {
+        id: 11,
+        title: "AI Tools Every Developer Should Try in 2025",
+        slug: "top-ai-tools",
+        excerpt:
+          "From code assistance to automation — explore powerful AI tools that save time.",
+        coverImage: "/blog-images/ai-era.jpg",
+        date: "2025-06-10",
+        likes: 0,
+        comments: [],
+        tags: ["AI", "Tools"],
+      },
+      {
+        id: 14,
+        title: "AI in the News: Weekly Roundup",
+        slug: "ai-news-roundup",
+        excerpt:
+          "Catch up on the latest breakthroughs, controversies, and updates in AI.",
+        coverImage: "/blog-images/ai-3.jpg",
+        date: "2025-06-13",
+        likes: 0,
+        comments: [],
+        tags: ["AI", "News"],
+      },
+    ],
+  },
+  {
+    category: "Digital Marketing",
+    blogs: [
+      {
+        id: 16,
+        title: "Mastering Meta Ads for ROI",
+        slug: "meta-ads-roi",
+        excerpt:
+          "Tips to get the most out of your Facebook and Instagram ad spend.",
+        coverImage: "/blog-images/Meta.jpg",
+        date: "2025-06-15",
+        likes: 0,
+        comments: [],
+        tags: ["Digital Marketing", "Meta Ads"],
+      },
+      {
+        id: 17,
+        title: "Complete Guide to Google Ads",
+        slug: "google-ads-complete-guide",
+        excerpt:
+          "Structure your campaigns like a pro and avoid costly mistakes.",
+        coverImage: "/blog-images/googleAds.webp",
+        date: "2025-06-16",
+        likes: 0,
+        comments: [],
+        tags: ["Digital Marketing", "Google Ads"],
+      },
+      {
+        id: 18,
+        title: "LinkedIn Ad Campaigns: What Works?",
+        slug: "linkedin-ads",
+        excerpt:
+          "B2B marketing on LinkedIn isn’t dead — you just need the right strategy.",
+        coverImage: "/blog-images/social.avif",
+        date: "2025-06-17",
+        likes: 0,
+        comments: [],
+        tags: ["Digital Marketing", "LinkedIn"],
+      },
+      {
+        id: 19,
+        title: "Retargeting Campaigns That Convert",
+        slug: "retargeting-strategy",
+        excerpt: "How to bring users back with smart retargeting funnels.",
+        coverImage: "/blog-images/startup2.jpg",
+        date: "2025-06-18",
+        likes: 0,
+        comments: [],
+        tags: ["Digital Marketing", "Funnels"],
+      },
+    ],
+  },
+  {
+    category: "SEO",
+    blogs: [
+      {
+        id: 21,
+        title: "What is SEO? Beginner to Advanced Explained",
+        slug: "what-is-seo-basics",
+        excerpt:
+          "Understand how SEO helps your business grow online through better visibility.",
+        coverImage: "/blog-images/SEO1.jpg",
+        date: "2025-06-21",
+        likes: 0,
+        comments: [],
+        tags: ["SEO", "Ranking"],
+      },
+      {
+        id: 22,
+        title: "On-Page SEO Best Practices",
+        slug: "on-page-seo",
+        excerpt:
+          "Title tags, internal links, content optimization — here’s your checklist.",
+        coverImage: "/blog-images/SEO_2.jpg",
+        date: "2025-06-22",
+        likes: 0,
+        comments: [],
+        tags: ["SEO", "On Page"],
+      },
+      {
+        id: 23,
+        title: "Off-Page SEO & Link Building Tips",
+        slug: "off-page-seo",
+        excerpt:
+          "Guest posts, backlinks, and what really matters for ranking in 2025.",
+        coverImage: "/blog-images/SEO_3.jpg",
+        date: "2025-06-23",
+        likes: 0,
+        comments: [],
+        tags: ["SEO", "Off Page"],
+      },
+      {
+        id: 24,
+        title: "SEO Tools You Shouldn’t Ignore",
+        slug: "seo-tools-2025",
+        excerpt: "From Ahrefs to Google Search Console — what to use and why.",
+        coverImage: "/blog-images/Multitasking.avif",
+        date: "2025-06-24",
+        likes: 0,
+        comments: [],
+        tags: ["SEO", "Tools"],
+      },
+    ],
+  },
+];
