@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Workflow from "@/public/workflow/workflowimage3.svg";
+import process from "@/public/how-we-do-video/download.png";
 
 const DevelopmentProcess = () => {
   return (
@@ -39,10 +40,13 @@ const DevelopmentProcess = () => {
 
         {/* Grid 2: Video Content */}
         <div className="flex justify-center items-center">
-          <video controls className="w-full h-auto rounded-md shadow-lg">
+          {/* <video controls className="w-full h-auto rounded-md shadow-lg">
             <source src="/path-to-your-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
+          <div className="bg-gray-50 rounded-lg">
+            <Image src={process} alt="workflow" width={400} height={250} />
+          </div>
         </div>
       </div>
 

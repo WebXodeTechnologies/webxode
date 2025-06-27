@@ -1,20 +1,20 @@
-// app/blog/page.tsx
-
-import ComingSoon from '@/components/CommingSoon';
 import React from 'react';
+import BlogClient from '@/components/BlogPage/BlogClient';
+import { Blogs as CategorizedBlogs } from '@/data/index';
 
 export const metadata = {
-  title: "Blog | Webxode - Tech Insights & Development Tips and connect and share your ideas",
-  description:
-    "Explore the latest updates, tutorials, and insights from Webxode. Stay ahead in web development, design trends, and tech innovations.",
+  title: "Blog | Webxode - Tech Insights & Development Tips",
+  description: "Explore the latest updates, tutorials, and insights from Webxode.",
 };
 
-const page = () => {
+const BlogPage = () => {
+  const flatBlogs = CategorizedBlogs.flatMap((category) => category.blogs);
+
   return (
-    <section>
-      <ComingSoon />
+    <section className="max-w-6xl mx-auto px-4 py-12">
+      <BlogClient blogs={flatBlogs} />
     </section>
   );
 };
 
-export default page;
+export default BlogPage;
