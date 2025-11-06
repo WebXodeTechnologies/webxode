@@ -70,18 +70,9 @@ const RecentProjects = () => {
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition duration-200"
-                        >
-                          Live
-                          <FaLocationArrow className="ml-2 text-xs" />
-                        </Link>
-                        <Link
-                          href={item.caseStudy}
-                          target="_blank"
-                          rel="noopener noreferrer"
                           className="flex items-center bg-gray-200 hover:bg-gray-300 text-gray-900 px-4 py-2 rounded-lg text-sm font-medium transition duration-200"
                         >
-                          Know More
+                           Live
                           <FaLocationArrow className="ml-2 text-xs" />
                         </Link>
                       </div>
