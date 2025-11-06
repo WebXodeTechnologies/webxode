@@ -9,7 +9,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const OurApproach = () => {
   return (
-    <section className="container mx-auto my-20 px-6 bg-black text-white flex items-center">
+    <section className="container my-40 mx-auto p-6 text-white flex items-center">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Side - Image */}
         <div className="flex justify-center">

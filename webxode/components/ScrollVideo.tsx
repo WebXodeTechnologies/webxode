@@ -10,7 +10,7 @@ export function ScrollVideo() {
   const scale = useMotionValue(1);
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center py-10">
+    <div className="relative flex items-center justify-center md:min-h-screen">
       <ContainerScroll
         titleComponent={
           <>
