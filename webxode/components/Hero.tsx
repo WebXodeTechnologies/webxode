@@ -6,9 +6,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 export function Hero() {
   return (
-    <main className="relative min-h-screen flex items-center justify-center py-10">
+    <main className="relative my-20 md:min-h-screen flex items-center justify-center">
       {/* Content with Background Lines */}
-      <BackgroundLines className="relative z-10 flex flex-col items-center justify-center px-4 md:px-6 lg:px-8 text-center">
+      <BackgroundLines className="relative z-10 flex flex-col items-center justify-center p-4 md:p-6 lg:p-8 text-center">
         <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-white to-purple text-3xl sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-Inter py-2 sm:py-4 md:py-6 lg:py-10 font-bold tracking-tight">
           Empowering Innovation, <br />
           Driving <span className="text-purple ml-1">Digital Excellence.</span>
@@ -18,7 +18,7 @@ export function Hero() {
           seamless digital experiences, and innovative strategies to elevate
           your business.
         </p>
-        <div className="mt-6">
+        <div className="mt-5">
           <Link href="/get-started">
             <MagicButton
               title="Get Started"

@@ -75,15 +75,15 @@ const Services = () => {
   ];
 
   return (
-    <div>
-      <div className="container mx-auto my-5 max-w-7xl">
+    <section className="p-6">
+      <div className=" mx-auto  max-w-7xl">
         <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl font-normal text-center text-gradient mb-5 tracking-wider font-outfit animate-fade-in uppercase font-montserrat text-white">
           Your Vision,
           <span className="block sm:inline text-purple font-montserrat font-normal">
             Our Expertise
           </span>
         </h1>
-        <div className="container mx-auto max-w-4xl px-4 py-4 text-center">
+        <div className="container mx-auto max-w-4xl text-center">
           <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-neutral-300 leading-relaxed">
             From building powerful applications to driving exponential growth,
             we provide all the expertise and tools your business needs.
@@ -91,12 +91,12 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10 py-10 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10  max-w-7xl mx-auto">
         {features.map((feature, index) => (
           <Feature key={feature.title} {...feature} index={index} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

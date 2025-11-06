@@ -40,7 +40,7 @@ export const ContainerScroll = ({
   );
 
   return (
-    <div ref={containerRef} className="relative lg:p-20 p-4">
+    <div ref={containerRef} className="relative lg:p-10 p-4">
       <div className="w-full relative" style={{ perspective: "1000px" }}>
         <Header translate={translate} titleComponent={titleComponent} />
         <Card rotate={rotate} scale={scale} translate={translate}>
