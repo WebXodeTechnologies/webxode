@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://webxode.vercel.app",
+    url: "https://www.webxode.com/",
     title: "WebXode Technologies",
     description:
       "We deliver custom software solutions, web and mobile apps tailored to your business goals. Build your digital future with WebXode.",

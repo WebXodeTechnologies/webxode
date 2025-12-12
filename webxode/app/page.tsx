@@ -20,7 +20,7 @@ export default function Home() {
     <main className="relative flex justify-center flex-col overflow-clip mx-auto sm:px-10 px-5">
       <div>
         <Hero />
-        <AboutUs />  
+        <AboutUs />   
         <ScrollVideo/>
         <Services />
         <OurApproach />
