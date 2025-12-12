@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Image1 from "@/public/about/EP3340.jpeg";
+import Image1 from "@/public/about/BP-2.png";
 import Image2 from "@/public/about/snajeev.png";
 import { BackgroundGradient } from "../../components/ui/BackgroundGradient";
 import linkedinicon from "@/public/about/linkedin.svg";
